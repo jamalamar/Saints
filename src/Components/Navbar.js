@@ -17,8 +17,9 @@ function NavBar (props) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto" style={style.navItems}>
-              <Nav.Link as={Link} to='/About' >About</Nav.Link>
-              <Nav.Link as={Link} to='/Contact' >Contact</Nav.Link>
+              <Nav.Link as={Link} to='/OurStory' style={style.link}>Our Story</Nav.Link>
+              <Nav.Link as={Link} to="/FAQs" style={style.link}>FAQs</Nav.Link>
+              <Nav.Link as={Link} to='/Contact' style={style.link}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -33,8 +34,11 @@ const style = {
     width: '220px'
   },
   navItems: {
-    letterSpacing: '0.394em',
+    letterSpacing: '0.1em',
     fontWeight: '602',
+  },
+  link: {
+    margin: '0em 0em 0em 1em'
   }
 }
 

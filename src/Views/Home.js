@@ -14,7 +14,7 @@ function Home(){
 			    <div>
 				    <img src='Assets/Saints_Logo_Original.png' style={style.LogoHeader}/>
 			    </div>
-			    <Button as={Link} to='/About' variant="outline-dark" size="lg" style={style.button}>Learn More</Button>
+			    {/*<Button as={Link} to='/About' variant="outline-dark" size="lg" style={style.button}>Learn More</Button>*/}
 			  </Container>
 			</Jumbotron>
 
