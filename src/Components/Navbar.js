@@ -1,46 +1,72 @@
-import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter as Router } from 'react-router-dom';
+import { 
+        MDBNavbar, 
+        MDBNavbarBrand, 
+        MDBNavbarNav, 
+        MDBNavItem, 
+        MDBNavLink, 
+        MDBNavbarToggler, 
+        MDBCollapse, 
+        MDBDropdown,
+        MDBDropdownToggle, 
+        MDBDropdownMenu, 
+        MDBDropdownItem, 
+        MDBIcon 
+      } from "mdbreact";
 
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
 
+class Navbar extends Component {
+state = {
+  isOpen: false
+};
 
-function NavBar (props) {
-
-  return (
-    <div className="App">
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
-          <Navbar.Brand style={style.brand} as={Link} to='/' >
-            <img src='/Assets/SaintsTitle.png' style={style.logo}/>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto" style={style.navItems}>
-              <Nav.Link as={Link} to='/OurStory' style={style.link}>Our Story</Nav.Link>
-              <Nav.Link as={Link} to="/FAQs" style={style.link}>FAQs</Nav.Link>
-              <Nav.Link as={Link} to='/Contact' style={style.link}>Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-    </div>
-  );
+toggleCollapse = () => {
+  this.setState({ isOpen: !this.state.isOpen });
 }
 
-
-const style = {
-
-  logo: {
-    width: '220px'
-  },
-  navItems: {
-    letterSpacing: '0.1em',
-    fontWeight: '602',
-  },
-  link: {
-    margin: '0em 0em 0em 1em'
+render() {
+  return (
+    <Router>
+      <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
+        <MDBNavbarBrand>
+          <strong className="dark-text">Navbar</strong>
+        </MDBNavbarBrand>
+        <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
+        <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
+         
+          <MDBNavbarNav left>   
+            <MDBNavItem active>
+              <MDBNavLink to="/">Home</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/AboutUs">About Us</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/FAQs">FAQ's</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/Contact">Contact</MDBNavLink>
+            </MDBNavItem>
+          </MDBNavbarNav>
+          <MDBNavbarNav right>
+            <MDBNavItem>
+              <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="instagram" />
+              </MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="facebook" />
+              </MDBNavLink>
+            </MDBNavItem>
+          </MDBNavbarNav>
+        
+        </MDBCollapse>
+      </MDBNavbar>
+    </Router>
+    );
   }
 }
 
-
-export default NavBar;
+export default Navbar;

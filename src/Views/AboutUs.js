@@ -1,6 +1,6 @@
 import React from 'react'
 
-function OurStory(){
+function AboutUs(){
 	return(
 		<div>
 			<h1>Our Story Page</h1>
@@ -16,4 +16,4 @@ function OurStory(){
 	)
 }
 
-export default OurStory;
+export default AboutUs;
