@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 import { 
         MDBNavbar, 
         MDBNavbarBrand, 
@@ -12,7 +13,8 @@ import {
         MDBDropdownToggle, 
         MDBDropdownMenu, 
         MDBDropdownItem, 
-        MDBIcon 
+        MDBIcon,
+        MDBBtn
       } from "mdbreact";
 
 
@@ -27,44 +29,42 @@ toggleCollapse = () => {
 
 render() {
   return (
-    <Router>
       <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
         <MDBNavbarBrand>
-          <strong className="dark-text">Navbar</strong>
+          <strong className="dark-text">SAINTS</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
          
           <MDBNavbarNav left>   
             <MDBNavItem active>
-              <MDBNavLink to="/">Home</MDBNavLink>
+              <MDBNavLink to="/"><strong className="m-2">Home</strong></MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/AboutUs">About Us</MDBNavLink>
+              <MDBNavLink to="/AboutUs"><strong className="m-2">About Us</strong></MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/FAQs">FAQ's</MDBNavLink>
+              <MDBNavLink to="/FAQs"><strong className="m-2">FAQ's</strong></MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/Contact">Contact</MDBNavLink>
+              <MDBNavLink to="/Contact"><strong className="m-2">Contact</strong></MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="instagram" />
+              <MDBNavLink className="waves-effect waves-light" to="#" >
+                <MDBIcon fab icon="instagram" size="2x"/>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="facebook" />
+              <MDBNavLink className="waves-effect waves-dark" to="#">
+                <MDBIcon fab icon="facebook" size="2x"/>
               </MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
         
         </MDBCollapse>
       </MDBNavbar>
-    </Router>
     );
   }
 }
