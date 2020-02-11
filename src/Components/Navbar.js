@@ -52,14 +52,18 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#" >
-                <MDBIcon fab icon="instagram" size="2x"/>
-              </MDBNavLink>
+              <a href="https://instagram.com/jamalamar/" target="__blank">
+                <MDBNavLink disabled className="waves-effect waves-light" to='#'>
+                  <MDBIcon fab icon="instagram" size="2x"/>
+                </MDBNavLink>
+              </a>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-dark" to="#">
-                <MDBIcon fab icon="facebook" size="2x"/>
-              </MDBNavLink>
+              <a href="https://fb.me/SaintsHardSeltzer" target="__blank">
+                <MDBNavLink disabled className="waves-effect waves-dark" to="#">
+                  <MDBIcon fab icon="facebook" size="2x"/>
+                </MDBNavLink>
+              </a>
             </MDBNavItem>
           </MDBNavbarNav>
         
