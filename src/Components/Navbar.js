@@ -30,8 +30,8 @@ toggleCollapse = () => {
 render() {
   return (
       <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
-        <MDBNavbarBrand>
-          <strong className="dark-text">SAINTS</strong>
+        <MDBNavbarBrand className="waves-effect waves-light">
+          <MDBNavLink to="/"><img src='Assets/SaintsNavbarB.png' fluid/></MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
