@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Home from './Views/Home'
 import AboutUs from './Views/AboutUs'
@@ -15,14 +15,17 @@ function App() {
 
   return (
     <Router>
-      <div >
+      <div>
 
         <NavBar/>
 
-        <Route path="/" exact component={Home} />
-        <Route path="/AboutUs" component={AboutUs} />
-        <Route path="/FAQs" component={FAQs} />
-        <Route path="/Contact" component={Contact} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/AboutUs" component={AboutUs} />
+          <Route path="/FAQs" component={FAQs} />
+          <Route path="/Contact" component={Contact} />
+          <Route exact path='*' component={Home} />
+        </Switch>
 
         <Footer />
 
