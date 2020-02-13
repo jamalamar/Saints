@@ -1,11 +1,42 @@
-import React from 'react'
+import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
 
 import { MDBJumbotron,MDBContainer, MDBBtn, MDBRow, MDBCol, MDBCardTitle, MDBIcon, MDBMask, MDBView } from "mdbreact";
 
-function Home(){
+class Home extends Component {
+state = {
+collapsed: false
+};
+
+handleTogglerClick = () => {
+this.setState({
+  collapsed: !this.state.collapsed
+});
+};
+
+render() {
+const navStyle = { marginTop: "4rem" };
+const style = {
+	jumbotron: {
+	  backgroundPosition: 'center',
+	  backgroundRepeat: 'no-repeat',
+	  backgroundSize: 'cover'
+	},
+	logoHeader: {
+	  margin: 'auto'
+	  }
+}
+
+const overlay = (
+  <div
+    id="sidenav-overlay"
+    style={{ backgroundColor: "transparent" }}
+    onClick={this.handleTogglerClick}
+  />
+);
 	return(
         <div fluid>
+        {this.state.collapsed && overlay}
 	        <MDBView src='/Assets/Beach_Background.jpg' fixed>
 	          <MDBMask className="rgba-white-light d-flex justify-content-center align-items-center">
 	            <MDBContainer>
@@ -53,22 +84,9 @@ function Home(){
 	              </MDBCol>
 	            </MDBRow>
 	          </MDBContainer>
-	         </main>
+	        </main>
 	    </div>
 	)
+	}
 }
-
-
-
-const style = {
-	jumbotron: {
-	  backgroundPosition: 'center',
-	  backgroundRepeat: 'no-repeat',
-	  backgroundSize: 'cover'
-	},
-	logoHeader: {
-	  margin: 'auto'
-	  }
-}
-
 export default Home;

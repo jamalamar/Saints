@@ -9,18 +9,15 @@ const AboutUs = () => {
         <h2 className="h1-responsive font-weight-bold text-center my-5 pb-5">
          ¿Qué es <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>?
         </h2>
-        <p className="text-center w-responsive mx-auto mb-5">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
-        </p>
+
+        <hr className="my-5" />
+        
         <MDBRow>
           <MDBCol lg="5">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+                src="https://mdbootstrap.com/img/Photos/Others/images/19.jpg"
                 alt=""
               />
               <a href="#!">
@@ -29,14 +26,14 @@ const AboutUs = () => {
             </MDBView>
           </MDBCol>
           <MDBCol lg="7">
-            <a href="#!" className="green-text">
+            <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="utensils" className="pr-2" />
-                Food
+                <MDBIcon icon="sun" className="pr-2" />
+                DÍA
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Title</strong>
             </h3>
             <p>
               Nam libero tempore, cum soluta nobis est eligendi optio cumque
@@ -44,45 +41,57 @@ const AboutUs = () => {
               omnis voluptas assumenda est, omnis dolor repellendus et aut
               officiis debitis.
             </p>
-            <p>
-              by
-              <a href="#!">
-                <strong>Carine Fox</strong>
-              </a>
-              , 19/08/2018
+			<p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+              blanditiis praesentium voluptatum deleniti atque corrupti quos 
+              dolores et quas molestias excepturi sint occaecati cupiditate 
+              non provident.
             </p>
-            <MDBBtn color="success" size="md" className="waves-light ">
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
+              sit amet.
+            </p>
+            <MDBBtn color="orange" size="md" className="waves-light ">
               Read more
             </MDBBtn>
           </MDBCol>
         </MDBRow>
+
         <hr className="my-5" />
+        
         <MDBRow>
           <MDBCol lg="7">
-            <a href="#!" className="pink-text">
+            <a href="#!" className="indigo-text">
               <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="image" className="pr-2" />
-                Lifestyle
+                <MDBIcon icon="moon" className="pr-2" />
+                NOCHE
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Title</strong>
             </h3>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
+            </p>
+			<p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+              blanditiis praesentium voluptatum deleniti atque corrupti quos 
+              dolores et quas molestias excepturi sint occaecati cupiditate 
               non provident.
             </p>
             <p>
-              by
-              <a href="#!">
-                <strong>Carine Fox</strong>
-              </a>
-              , 14/08/2018
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
+              sit amet.
             </p>
             <MDBBtn
-              color="pink"
+              color="indigo"
               size="md"
               className="mb-lg-0 mb-4 waves-light"
             >
@@ -93,7 +102,7 @@ const AboutUs = () => {
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg"
+                src="https://mdbootstrap.com/img/Photos/Others/images/84.jpg"
                 alt=""
               />
               <a href="#!">
@@ -102,8 +111,95 @@ const AboutUs = () => {
             </MDBView>
           </MDBCol>
         </MDBRow>
+
         <hr className="my-5" />
+        
         <MDBRow>
+          <MDBCol lg="5">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img
+                className="img-fluid"
+                src="https://mdbootstrap.com/img/Photos/Others/images/86.jpg"
+                alt=""
+              />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
+          </MDBCol>
+          <MDBCol lg="7">
+            <a href="#!" className="pink-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="suitcase" className="pr-2" />
+                LIFESTYLE
+              </h6>
+            </a>
+            <h3 className="font-weight-bold mb-3 p-0">
+              <strong>Title</strong>
+            </h3>
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
+            </p>
+			<p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+              blanditiis praesentium voluptatum deleniti atque corrupti quos 
+              dolores et quas molestias excepturi sint occaecati cupiditate 
+              non provident.
+            </p>
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
+              sit amet.
+            </p>
+            <MDBBtn color="pink" size="md" className="waves-light ">
+              Read more
+            </MDBBtn>
+          </MDBCol>
+        </MDBRow>
+
+        <hr className="my-5" />
+        
+        <MDBRow>
+          <MDBCol lg="7">
+            <a href="#!" className="blue-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="mountain" className="pr-2" />
+                HIKE
+              </h6>
+            </a>
+            <h3 className="font-weight-bold mb-3 p-0">
+              <strong>Title</strong>
+            </h3>
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
+            </p>
+			<p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+              blanditiis praesentium voluptatum deleniti atque corrupti quos 
+              dolores et quas molestias excepturi sint occaecati cupiditate 
+              non provident.
+            </p>
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
+              sit amet.
+            </p>
+            <MDBBtn
+              color="blue"
+              size="md"
+              className="mb-lg-0 mb-4 waves-light"
+            >
+              Read more
+            </MDBBtn>
+          </MDBCol>
           <MDBCol lg="5">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
@@ -116,34 +212,8 @@ const AboutUs = () => {
               </a>
             </MDBView>
           </MDBCol>
-          <MDBCol lg="7">
-            <a href="#!" className="indigo-text">
-              <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="suitcase" className="pr-2" />
-                Food
-              </h6>
-            </a>
-            <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
-            </h3>
-            <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
-              sit amet.
-            </p>
-            <p>
-              by
-              <a href="#!">
-                <strong>Carine Fox</strong>
-              </a>
-              , 11/08/2018
-            </p>
-            <MDBBtn color="indigo" size="md" className="waves-light ">
-              Read more
-            </MDBBtn>
-          </MDBCol>
         </MDBRow>
+
       </MDBCardBody>
     </MDBCard>
     </div>
