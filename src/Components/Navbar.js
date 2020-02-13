@@ -38,16 +38,28 @@ render() {
          
           <MDBNavbarNav left>   
             <MDBNavItem>
-              <MDBNavLink to="/"><strong className="m-2">Inicio</strong></MDBNavLink>
+              {this.state.isOpen ? 
+              <MDBNavLink to="/" onClick={this.toggleCollapse}><strong className="m-2">Inicio</strong></MDBNavLink>
+              :
+              <MDBNavLink to="/" ><strong className="m-2">Inicio</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/AboutUs"><strong className="m-2">¿Quienes Somos?</strong></MDBNavLink>
+            { this.state.isOpen ?
+              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-2">¿Quienes Somos?</strong></MDBNavLink>
+              :
+              <MDBNavLink to="/AboutUs" ><strong className="m-2">¿Quienes Somos?</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/FAQs"><strong className="m-2">FAQ's</strong></MDBNavLink>
+              {this.state.isOpen ?
+              <MDBNavLink to="/FAQs" onClick={this.toggleCollapse}><strong className="m-2">FAQ's</strong></MDBNavLink>
+              :
+              <MDBNavLink to="/FAQs" ><strong className="m-2">FAQ's</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/Contact"><strong className="m-2">Contacto</strong></MDBNavLink>
+            {this.state.isOpen ?
+              <MDBNavLink to="/Contact" onClick={this.toggleCollapse}><strong className="m-2">Contacto</strong></MDBNavLink>
+              :
+              <MDBNavLink to="/Contact" ><strong className="m-2">Contacto</strong></MDBNavLink>}
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
