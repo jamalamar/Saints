@@ -3,16 +3,6 @@ import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbrea
 
 
 function Contact(){
-
-const style = {
-	background: {
-	  background: 'url(Assets/Contact_Background.jpg)',
-	  backgroundPosition: 'center',
-	  backgroundRepeat: 'no-repeat',
-	  backgroundSize: 'cover',
-	}
-}
-
 	return(
 		<div style={style.background}>
 		<MDBContainer className='py-5' >
@@ -31,7 +21,7 @@ const style = {
 		            <MDBRow>
 		              <MDBCol md="6">
 		                <div className="md-form mb-5">
-		                  <MDBInput 
+		                  <MDBInput
 		                  label="Nombre" 
 		                  name="Nombre"
 		                  required
@@ -41,6 +31,7 @@ const style = {
 		              <MDBCol md="6">
 		                <div className="md-form mb-0">
 		                  <MDBInput
+		                  	type="email"
 		                    label="Correo Electrónico"
 		                    name="E-Mail"
 		                    required
@@ -51,7 +42,7 @@ const style = {
 		            <MDBRow>
 		              <MDBCol md="6">
 		                <div className="md-form mb-0">
-		                  <MDBInput 
+		                  <MDBInput
 		                  label="Asunto" 
 		                  name="Asunto"
 		                  />
@@ -59,7 +50,7 @@ const style = {
 		              </MDBCol>
 		              <MDBCol md="6">
 		                <div className="md-form mb-0">
-		                  <MDBInput 
+		                  <MDBInput
 		                  label="Teléfono" 
 		                  name="Telefono"
 		                  required
@@ -71,18 +62,22 @@ const style = {
 		              <MDBCol md="12">
 		                <div className="md-form mb-0">
 		                  <MDBInput
+		                  	type="textarea"
 		                    label="Escriba su mensaje"
 		                    name="Mensaje"
+		                    required
 		                  />
 		                </div>
 		              </MDBCol>
 		            </MDBRow>
+			          <div className="text-center text-md-left">
+			            <MDBBtn color="primary" size="md" type="submit">
+			              Enviar
+			            </MDBBtn>
+			          </div>
 		          </form>
-		          <div className="text-center text-md-left">
-		            <MDBBtn color="primary" size="md" type="submit">
-		              Enviar
-		            </MDBBtn>
-		          </div>
+
+
 		        </MDBCol>
 		        <MDBCol md="3" className="text-center">
 		          <ul className="list-unstyled mb-0">
@@ -110,6 +105,15 @@ const style = {
 	    </MDBContainer>
 	    </div>
 	)
+}
+
+const style = {
+	background: {
+	  background: 'url(Assets/Contact_Background.jpg)',
+	  backgroundPosition: 'center',
+	  backgroundRepeat: 'no-repeat',
+	  backgroundSize: 'cover',
+	}
 }
 
 export default Contact;
