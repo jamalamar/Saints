@@ -22,11 +22,22 @@ const style = {
 
 		      <MDBRow >
 		        <MDBCol md="9" className="md-0 mb-5">
-		          <form>
+
+		          <form name="SaintsContactForm" method="post" >
+
+		          {/*Value set to the same of the Form on Index.html*/}
+				    <input type="hidden" name="form-name" value="SaintsContactForm" />
+
 		            <MDBRow>
 		              <MDBCol md="6">
-		                <div className="md-form mb-5 mt-5">
-		                  <MDBInput type="text" id="contact-name" label="Nombre" />
+		                <div className="md-form mb-5">
+		                  <MDBInput 
+		                  type="text" 
+		                  id="contact-name" 
+		                  label="Nombre" 
+		                  name="Nombre"
+		                  required
+		                  />
 		                </div>
 		              </MDBCol>
 		              <MDBCol md="6">
@@ -35,14 +46,31 @@ const style = {
 		                    type="text"
 		                    id="contact-email"
 		                    label="Correo Electrónico"
+		                    name="E-Mail"
+		                    required
 		                  />
 		                </div>
 		              </MDBCol>
 		            </MDBRow>
 		            <MDBRow>
-		              <MDBCol md="12">
+		              <MDBCol md="6">
 		                <div className="md-form mb-0">
-		                  <MDBInput type="text" id="contact-subject" label="Asunto" />
+		                  <MDBInput 
+		                  type="text" 
+		                  id="contact-subject" 
+		                  label="Asunto" 
+		                  name="Asunto"
+		                  />
+		                </div>
+		              </MDBCol>
+		              <MDBCol md="6">
+		                <div className="md-form mb-0">
+		                  <MDBInput 
+		                  type="text" 
+		                  id="contact-phone" 
+		                  label="Teléfono" 
+		                  name="Telefono"
+		                  />
 		                </div>
 		              </MDBCol>
 		            </MDBRow>
@@ -53,13 +81,14 @@ const style = {
 		                    type="textarea"
 		                    id="contact-message"
 		                    label="Escriba su mensaje"
+		                    name="Mensaje"
 		                  />
 		                </div>
 		              </MDBCol>
 		            </MDBRow>
 		          </form>
 		          <div className="text-center text-md-left">
-		            <MDBBtn color="primary" size="md">
+		            <MDBBtn color="primary" size="md" type="submit">
 		              Enviar
 		            </MDBBtn>
 		          </div>
