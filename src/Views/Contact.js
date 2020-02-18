@@ -32,8 +32,6 @@ const style = {
 		              <MDBCol md="6">
 		                <div className="md-form mb-5">
 		                  <MDBInput 
-		                  type="text" 
-		                  id="contact-name" 
 		                  label="Nombre" 
 		                  name="Nombre"
 		                  required
@@ -43,8 +41,6 @@ const style = {
 		              <MDBCol md="6">
 		                <div className="md-form mb-0">
 		                  <MDBInput
-		                    type="text"
-		                    id="contact-email"
 		                    label="Correo Electrónico"
 		                    name="E-Mail"
 		                    required
@@ -56,8 +52,6 @@ const style = {
 		              <MDBCol md="6">
 		                <div className="md-form mb-0">
 		                  <MDBInput 
-		                  type="text" 
-		                  id="contact-subject" 
 		                  label="Asunto" 
 		                  name="Asunto"
 		                  />
@@ -66,10 +60,9 @@ const style = {
 		              <MDBCol md="6">
 		                <div className="md-form mb-0">
 		                  <MDBInput 
-		                  type="text" 
-		                  id="contact-phone" 
 		                  label="Teléfono" 
 		                  name="Telefono"
+		                  required
 		                  />
 		                </div>
 		              </MDBCol>
@@ -78,8 +71,6 @@ const style = {
 		              <MDBCol md="12">
 		                <div className="md-form mb-0">
 		                  <MDBInput
-		                    type="textarea"
-		                    id="contact-message"
 		                    label="Escriba su mensaje"
 		                    name="Mensaje"
 		                  />
