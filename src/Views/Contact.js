@@ -14,12 +14,12 @@ import {
 
 function Contact(){
 	return(
-		<section className="pb-5">
+		<section className="">
 	    <MDBView
 	          src={''}
 	          fixed
 	    >
-	    <MDBMask className='' />
+	    <MDBMask className='bg-dark' />
        {/*<h2 className="h1-responsive font-weight-bold text-center my-5">
         Cotactanos
       </h2>
@@ -32,7 +32,7 @@ function Contact(){
         <MDBCol lg="5" className="lg-0 mb-4 mt-5">
           <MDBCard>
             <MDBCardBody>
-              <div className="form-header light-blue text-center p-3" style={{'marginTop': '-3rem'}}>
+              <div className="form-header black text-center p-3" style={{'marginTop': '-3rem'}}>
                 <h3 className="mt-2 text-white">
                   <MDBIcon icon="fa fa-envelope" /> Escríbenos:
                 </h3>
@@ -101,7 +101,7 @@ function Contact(){
                 />
               </div>
               <div className="text-center">
-                <MDBBtn color="light-blue" type="submit">Enviar</MDBBtn>
+                <MDBBtn color="grey" type="submit">Enviar</MDBBtn>
               </div>
             </form>
 
@@ -124,23 +124,23 @@ function Contact(){
             />
           </div>
           <br />
-          <MDBRow className="text-center">
+          <MDBRow className="text-center text-white">
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="light-blue" className="accent-1">
+              <MDBBtn tag="a" floating color="grey" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
               <p>OXXO</p>
               <p className="mb-md-0">La Europea</p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="light-blue" className="accent-1">
+              <MDBBtn tag="a" floating color="grey" className="accent-1">
                 <MDBIcon icon="phone" />
               </MDBBtn>
               <p></p>
               <p></p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="light-blue" className="accent-1">
+              <MDBBtn tag="a" floating color="grey" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
               <p>saintshardseltzer@gmail.com </p>

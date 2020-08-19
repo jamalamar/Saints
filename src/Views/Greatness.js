@@ -13,8 +13,7 @@ import {
   MDBCardBody,
   MDBCarousel, 
   MDBCarouselInner, 
-  MDBCarouselItem,
-  MDBTypography
+  MDBCarouselItem
 } from 'mdbreact';
 
 import '../VideoBackgroundPage.css';
@@ -35,7 +34,7 @@ class Home extends Component {
           }
 
     return (
-      <div className="">
+      <div>
       
       {/******************************BACKGROUND********************************/}
       
@@ -123,7 +122,6 @@ class Home extends Component {
         </MDBView>
         </div>
 
-
             {/******************************WHY IS IT SO GREAT?********************************/}
 
           <MDBContainer className="px-5">
@@ -156,7 +154,7 @@ class Home extends Component {
                       <MDBIcon fab icon="envira" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">100% NATURALES</h5>
+                      <h5 className="font-weight-bold mb-3">ORGÁNICO</h5>
                       <p className="grey-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
@@ -236,73 +234,23 @@ class Home extends Component {
             </MDBContainer>
 
 
-          {/****************************************IMAGE BANNER****************************************/}
 
+          {/******************************FLAVORS********************************/}
 
-          {/*
-            <hr className="mt-5 w-100 py-1 black" />
-            <div className="font-weight-bold text-center">
-             <img src='Assets/SaintsTitleB.png' style={{width: '20%'}}/>
-             <img src='Assets/SaintsTitleB.png' style={{width: '20%'}}/>
-             <img src='Assets/SaintsTitleB.png' style={{width: '20%'}}/>
-             <img src='Assets/SaintsTitleB.png' style={{width: '20%'}}/>
-             <img src='Assets/SaintsTitleB.png' style={{width: '20%'}}/>
-            </div>
-            <hr className="mb-5 w-100 py-1 black" />
-        */}
+            <hr className="mt-5 w-75" />
 
-
-
-        	<MDBContainer className="mt-5">
-			  <MDBRow>
-
-			    <MDBCol lg="3" md="6" className="p-0">
-				    <img src='Assets/Pex1.jpg' className="w-100 img-fluid z-depth-1-half"/>
-			    </MDBCol>
-			    
-			    <MDBCol lg="3" md="6" className="p-0">
-				    <img src='Assets/Pex2.jpg' className="w-100 img-fluid z-depth-1-half"/>
-			    </MDBCol>
-			    
-			    <MDBCol lg="3" md="6" className="p-0">
-				    <img src='Assets/Pex3.jpg' className="w-100 img-fluid z-depth-1-half"/>
-			    </MDBCol>
-			    
-			    <MDBCol lg="3" md="6" className="p-0">
-				    <img src='Assets/Pex4.jpg' className="w-100 img-fluid z-depth-1-half"/>
-			    </MDBCol>
-
-			  </MDBRow>
-			</MDBContainer>
-
-	            {/*
-	            <div className="font-weight-bold text-center">
-		             <img src='Assets/Pex1.jpg' className="w-25"/>
-		             <img src='Assets/Pex2.jpg' className="w-25"/>
-		             <img src='Assets/Pex3.jpg' className="w-25"/>
-		             <img src='Assets/Pex4.jpg' className="w-25"/>
-	            </div>
-		        */}
-
-        <MDBContainer className="py-5 mt-5">
-
-
-        	{/*
-        	<MDBTypography tag="h1" variant="display-1" className="text-center pb-5 mb-5">
-	        	Cualquier Ocasión
-        	</MDBTypography>
-	        */}
+        <MDBContainer className="py-5">
+            <h2 className="h1-responsive font-weight-bold text-center my-5 pb-5">
+             ¿Qué es <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>?
+            </h2>
 
             
-          {/********************************************FLAVORS*******************************************/}
-
-
-            <MDBRow className="flex-center">
+            <MDBRow>
               <MDBCol lg="5">
                 <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                   <img
                     className="img-fluid"
-                    src="Assets/13.png"
+                    src="https://mdbootstrap.com/img/Photos/Others/images/19.jpg"
                     alt=""
                   />
                   <a href="#!">
@@ -311,12 +259,15 @@ class Home extends Component {
                 </MDBView>
               </MDBCol>
               <MDBCol lg="7">
-                <h2 className="h1-responsive font-weight-bold">
-		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
-	            </h2>
-                <h1 className="yellow-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <strong> MANGO</strong>
-                </h1>
+                <a href="#!" className="orange-text">
+                  <h6 className="font-weight-bold mb-3">
+                    <MDBIcon icon="sun" className="pr-2" />
+                    DÍA
+                  </h6>
+                </a>
+                <h3 className="font-weight-bold mb-3 p-0">
+                  <strong>Title</strong>
+                </h3>
                 <p>
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque
                   nihil impedit quo minus id quod maxime placeat facere possimus,
@@ -329,7 +280,7 @@ class Home extends Component {
                   dolores et quas molestias excepturi sint occaecati cupiditate 
                   non provident.
                 </p>
-                <MDBBtn color="yellow" size="md" className="waves-light ">
+                <MDBBtn color="orange" size="md" className="waves-light ">
                   Read more
                 </MDBBtn>
               </MDBCol>
@@ -337,14 +288,17 @@ class Home extends Component {
 
             <hr className="my-5" />
             
-            <MDBRow className="flex-center">
+            <MDBRow>
               <MDBCol lg="7">
-                <h2 className="h1-responsive font-weight-bold">
-		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
-	            </h2>
-                <h1 className="orange-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <strong> MANDARINA</strong>
-                </h1>
+                <a href="#!" className="indigo-text">
+                  <h6 className="font-weight-bold mb-3">
+                    <MDBIcon icon="moon" className="pr-2" />
+                    NOCHE
+                  </h6>
+                </a>
+                <h3 className="font-weight-bold mb-3 p-0">
+                  <strong>Title</strong>
+                </h3>
                 <p>
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque
                   nihil impedit quo minus id quod maxime placeat facere possimus,
@@ -358,7 +312,7 @@ class Home extends Component {
                   non provident.
                 </p>
                 <MDBBtn
-                  color="orange"
+                  color="indigo"
                   size="md"
                   className="mb-lg-0 mb-4 waves-light"
                 >
@@ -369,7 +323,7 @@ class Home extends Component {
                 <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                   <img
                     className="img-fluid"
-                    src="Assets/14.png"
+                    src="https://mdbootstrap.com/img/Photos/Others/images/84.jpg"
                     alt=""
                   />
                   <a href="#!">
@@ -381,12 +335,12 @@ class Home extends Component {
 
             <hr className="my-5" />
             
-            <MDBRow className="flex-center">
+            <MDBRow>
               <MDBCol lg="5">
                 <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                   <img
                     className="img-fluid"
-                    src="Assets/15.png"
+                    src="https://mdbootstrap.com/img/Photos/Others/images/86.jpg"
                     alt=""
                   />
                   <a href="#!">
@@ -395,12 +349,15 @@ class Home extends Component {
                 </MDBView>
               </MDBCol>
               <MDBCol lg="7">
-                <h2 className="h1-responsive font-weight-bold">
-		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
-	            </h2>
-                <h1 className="cyan-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <strong> NATURAL</strong>
-                </h1>
+                <a href="#!" className="pink-text">
+                  <h6 className="font-weight-bold mb-3">
+                    <MDBIcon icon="suitcase" className="pr-2" />
+                    LIFESTYLE
+                  </h6>
+                </a>
+                <h3 className="font-weight-bold mb-3 p-0">
+                  <strong>Title</strong>
+                </h3>
                 <p>
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque
                   nihil impedit quo minus id quod maxime placeat facere possimus,
@@ -413,12 +370,58 @@ class Home extends Component {
                   dolores et quas molestias excepturi sint occaecati cupiditate 
                   non provident.
                 </p>
-                <MDBBtn color="cyan" size="md" className="waves-light ">
+                <MDBBtn color="pink" size="md" className="waves-light ">
                   Read more
                 </MDBBtn>
               </MDBCol>
             </MDBRow>
 
+            <hr className="my-5" />
+            
+            <MDBRow>
+              <MDBCol lg="7">
+                <a href="#!" className="blue-text">
+                  <h6 className="font-weight-bold mb-3">
+                    <MDBIcon icon="mountain" className="pr-2" />
+                    HIKE
+                  </h6>
+                </a>
+                <h3 className="font-weight-bold mb-3 p-0">
+                  <strong>Title</strong>
+                </h3>
+                <p>
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere possimus,
+                  omnis voluptas assumenda est, omnis dolor repellendus et aut
+                  officiis debitis.
+                </p>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos 
+                  dolores et quas molestias excepturi sint occaecati cupiditate 
+                  non provident.
+                </p>
+                <MDBBtn
+                  color="blue"
+                  size="md"
+                  className="mb-lg-0 mb-4 waves-light"
+                >
+                  Read more
+                </MDBBtn>
+              </MDBCol>
+              <MDBCol lg="5">
+                <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+                  <img
+                    className="img-fluid"
+                    src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg"
+                    alt=""
+                  />
+                  <a href="#!">
+                    <MDBMask overlay="white-slight" />
+                  </a>
+                </MDBView>
+              </MDBCol>
+            </MDBRow>
         </MDBContainer>
       </div>
     );

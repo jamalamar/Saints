@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Home from './Views/Home'
 import AboutUs from './Views/AboutUs'
+import BuyNow from './Views/BuyNow'
 import FAQs from './Views/FAQs'
 import Contact from './Views/Contact'
 
@@ -21,6 +22,7 @@ function App() {
 
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/BuyNow" component={BuyNow} />
           <Route path="/AboutUs" component={AboutUs} />
           <Route path="/FAQs" component={FAQs} />
           <Route path="/Contact" component={Contact} />

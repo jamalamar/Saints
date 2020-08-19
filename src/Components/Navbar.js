@@ -29,37 +29,43 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar color="black" dark scrolling transparent expand="md" fixed="top">
+      <MDBNavbar color="black" dark scrolling transparent expand="xl" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
           <MDBNavLink to="/"><img src='Assets/Saints_T_WHITE.png' fluid/></MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
          
-          <MDBNavbarNav left>   
+          <MDBNavbarNav right>   
             <MDBNavItem>
               {this.state.isOpen ? 
-              <MDBNavLink to="/" onClick={this.toggleCollapse}><strong className="m-2">Inicio</strong></MDBNavLink>
+              <MDBNavLink to="/BuyNow" onClick={this.toggleCollapse}><strong className="m-3">Comprar Ahora</strong></MDBNavLink>
               :
-              <MDBNavLink to="/" ><strong className="m-2">Inicio</strong></MDBNavLink>}
+              <MDBNavLink to="/BuyNow" ><strong className="m-3">Comprar Ahora</strong></MDBNavLink>}
+            </MDBNavItem>
+            <MDBNavItem>
+              {this.state.isOpen ? 
+              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3">Sabores</strong></MDBNavLink>
+              :
+              <MDBNavLink to="/AboutUs" ><strong className="m-3">Sabores</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             { this.state.isOpen ?
-              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-2">¿Quienes Somos?</strong></MDBNavLink>
+              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3">¿Por que es increible?</strong></MDBNavLink>
               :
-              <MDBNavLink to="/AboutUs" ><strong className="m-2">¿Quienes Somos?</strong></MDBNavLink>}
+              <MDBNavLink to="/AboutUs" ><strong className="m-3">¿Por qué es increíble?</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ?
-              <MDBNavLink to="/FAQs" onClick={this.toggleCollapse}><strong className="m-2">FAQ's</strong></MDBNavLink>
+              <MDBNavLink to="/FAQs" onClick={this.toggleCollapse}><strong className="m-3">Preguntas Frecuentes</strong></MDBNavLink>
               :
-              <MDBNavLink to="/FAQs" ><strong className="m-2">FAQ's</strong></MDBNavLink>}
+              <MDBNavLink to="/FAQs" ><strong className="m-3">Preguntas Frecuentes</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             {this.state.isOpen ?
-              <MDBNavLink to="/Contact" onClick={this.toggleCollapse}><strong className="m-2">Contacto</strong></MDBNavLink>
+              <MDBNavLink to="/Contact" onClick={this.toggleCollapse}><strong className="m-3">Contacto</strong></MDBNavLink>
               :
-              <MDBNavLink to="/Contact" ><strong className="m-2">Contacto</strong></MDBNavLink>}
+              <MDBNavLink to="/Contact" ><strong className="m-3">Contacto</strong></MDBNavLink>}
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
