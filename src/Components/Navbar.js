@@ -29,9 +29,9 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
+      <MDBNavbar color="black" dark scrolling transparent expand="md" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
-          <MDBNavLink to="/"><img src='Assets/SaintsNavbarB.png' fluid/></MDBNavLink>
+          <MDBNavLink to="/"><img src='Assets/Saints_T_WHITE.png' fluid/></MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
@@ -64,7 +64,7 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <a href="https://instagram.com/jamalamar/" target="__blank">
+              <a href="https://instagram.com/saintseltzer/" target="__blank">
                 <MDBNavLink disabled className="waves-effect waves-light" to='#'>
                   <MDBIcon fab icon="instagram" size="2x"/>
                 </MDBNavLink>

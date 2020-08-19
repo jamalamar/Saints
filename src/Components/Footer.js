@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 function Footer (){
 	return(
-		<footer class="page-footer font-small blue pt-4" style={style.footer}>
-		  <div class="footer-copyright text-center py-3">© 2020 Copyright: 
+		<footer class="page-footer font-small dark pt-4" style={style.footer}>
+		  <div class="footer-copyright text-center black-text py-3">© 2020 Copyright: 
 		    <a> Saints Hard Seltzer</a>
 		  </div>
 		</footer>
