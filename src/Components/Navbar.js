@@ -20,50 +20,51 @@ import {
 
 class Navbar extends Component {
 state = {
-  isOpen: false
+  isOpen: false,
 };
 
+
 toggleCollapse = () => {
-  this.setState({ isOpen: !this.state.isOpen });
+  this.setState({ isOpen: !this.state.isOpen })
 }
 
 render() {
   return (
-      <MDBNavbar color="black" dark scrolling transparent expand="xl" fixed="top">
+      <MDBNavbar color="black" dark scrolling transparent={ this.state.isOpen ? false : true} expand="xl" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
-          <MDBNavLink to="/"><img src='Assets/Saints_T_WHITE.png' fluid/></MDBNavLink>
+          <MDBNavLink to="/"><img src='Assets/Saints_T_White.png' fluid/></MDBNavLink>
         </MDBNavbarBrand>
-        <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
+        <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
          
           <MDBNavbarNav right>   
             <MDBNavItem>
               {this.state.isOpen ? 
-              <MDBNavLink to="/BuyNow" onClick={this.toggleCollapse}><strong className="m-3">Comprar Ahora</strong></MDBNavLink>
+              <MDBNavLink to="/BuyNow" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Comprar Ahora</strong></MDBNavLink>
               :
               <MDBNavLink to="/BuyNow" ><strong className="m-3">Comprar Ahora</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ? 
-              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3">Sabores</strong></MDBNavLink>
+              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Sabores</strong></MDBNavLink>
               :
               <MDBNavLink to="/AboutUs" ><strong className="m-3">Sabores</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             { this.state.isOpen ?
-              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3">¿Por que es increible?</strong></MDBNavLink>
+              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">¿Por que es increible?</strong></MDBNavLink>
               :
               <MDBNavLink to="/AboutUs" ><strong className="m-3">¿Por qué es increíble?</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ?
-              <MDBNavLink to="/FAQs" onClick={this.toggleCollapse}><strong className="m-3">Preguntas Frecuentes</strong></MDBNavLink>
+              <MDBNavLink to="/FAQs" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Preguntas Frecuentes</strong></MDBNavLink>
               :
               <MDBNavLink to="/FAQs" ><strong className="m-3">Preguntas Frecuentes</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             {this.state.isOpen ?
-              <MDBNavLink to="/Contact" onClick={this.toggleCollapse}><strong className="m-3">Contacto</strong></MDBNavLink>
+              <MDBNavLink to="/Contact" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Contacto</strong></MDBNavLink>
               :
               <MDBNavLink to="/Contact" ><strong className="m-3">Contacto</strong></MDBNavLink>}
             </MDBNavItem>
