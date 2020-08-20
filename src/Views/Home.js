@@ -88,7 +88,7 @@ class Home extends Component {
                 <MDBView>
                   <MDBContainer className="p-5">
                     <MDBCol className="text-white text-center py-5" >
-                      <MDBCol className="py-5" md="8" style={style.logoHeader}>
+                      <MDBCol className="py-5" md="6" style={style.logoHeader}>
                       <img 
                         className="img-fluid"
                         src='/Assets/latas.png' 
@@ -105,7 +105,7 @@ class Home extends Component {
                 <MDBView>
                   <MDBContainer className="p-5">
                     <MDBCol className="text-white text-center py-5" >
-                      <MDBCol className="py-5" md="8" style={style.logoHeader}>
+                      <MDBCol className="py-5" md="6" style={style.logoHeader}>
                       <img 
                         className="img-fluid"
                         src='/Assets/VarPack.png' 
@@ -179,7 +179,7 @@ class Home extends Component {
                   </MDBRow>
                 </MDBCol>
 
-                <MDBCol md="4" className="text-name">
+                <MDBCol lg="4" sm="6" className="text-name">
                   <MDBContainer className="pb-5 px-5">
                       <img 
                         className="img-fluid"

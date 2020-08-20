@@ -14,12 +14,12 @@ import {
 
 function Contact(){
 	return(
-		<section className="">
+		<section className="black">
 	    <MDBView
 	          src={''}
 	          fixed
 	    >
-	    <MDBMask className='bg-dark' />
+	    <MDBMask className='' />
        {/*<h2 className="h1-responsive font-weight-bold text-center my-5">
         Cotactanos
       </h2>
@@ -32,7 +32,7 @@ function Contact(){
         <MDBCol lg="5" className="lg-0 mb-4 mt-5">
           <MDBCard>
             <MDBCardBody>
-              <div className="form-header black text-center p-3" style={{'marginTop': '-3rem'}}>
+              <div className="form-header bg-dark text-center p-3" style={{'marginTop': '-3rem'}}>
                 <h3 className="mt-2 text-white">
                   <MDBIcon icon="fa fa-envelope" /> Escríbenos:
                 </h3>
@@ -108,6 +108,10 @@ function Contact(){
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
+       
+         {/********************************************MAP**********************************************/}
+
+        {/*
         <MDBCol lg="7 mt-5">
           <div
             id="map-container"
@@ -148,6 +152,7 @@ function Contact(){
             </MDBCol>
           </MDBRow>
         </MDBCol>
+	  */}
       </MDBRow>
       </MDBView>
     </section>
