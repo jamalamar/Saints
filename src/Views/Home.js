@@ -14,7 +14,11 @@ import {
   MDBCarousel, 
   MDBCarouselInner, 
   MDBCarouselItem,
-  MDBTypography
+  MDBTypography, 
+  MDBModal, 
+  MDBModalBody, 
+  MDBModalHeader, 
+  MDBModalFooter
 } from 'mdbreact';
 
 import '../VideoBackgroundPage.css';
@@ -126,6 +130,7 @@ class Home extends Component {
 
             {/******************************WHY IS IT SO GREAT?********************************/}
 
+            
           <MDBContainer className="px-5">
           <section className="">
               <h2 className="h1-responsive font-weight-bold text-center my-5">

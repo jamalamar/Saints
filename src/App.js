@@ -9,6 +9,7 @@ import Contact from './Views/Contact'
 
 import NavBar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Modal from './Components/Modal'
 
 
 
@@ -20,6 +21,7 @@ function App() {
 
         <NavBar/>
 
+
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/BuyNow" component={BuyNow} />
@@ -28,6 +30,8 @@ function App() {
           <Route path="/Contact" component={Contact} />
           <Route exact path='*' component={Home} />
         </Switch>
+
+          <Modal/>
 
         <Footer />
 
