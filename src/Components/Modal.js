@@ -25,7 +25,7 @@ render() {
       
       {/* <MDBBtn onClick={this.toggle}>Modal</MDBBtn> */}
       
-      <MDBModal isOpen={this.state.modal} toggle={this.toggle} className='text-center' backdrop={false} centered>
+      <MDBModal isOpen={this.state.modal} className='text-center' centered>
       <MDBMask overlay="white-slight"/>
         <MDBModalHeader className="black h3">
           <img src="Assets/Saints_WHITE.png" className="w-75" />
