@@ -20,6 +20,8 @@ function App() {
       <div>
 
         <NavBar/>
+        
+        {/*<Modal/>*/}
 
 
         <Switch>
@@ -30,8 +32,6 @@ function App() {
           <Route path="/Contact" component={Contact} />
           <Route exact path='*' component={Home} />
         </Switch>
-
-          <Modal/>
 
         <Footer />
 

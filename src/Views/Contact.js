@@ -13,6 +13,18 @@ import {
 
 
 function Contact(){
+
+	const style = {
+			bg: {
+			  backgroundImage: `url('Assets/pex5.jpg')`,
+			  height: '40vh',
+			  backgroundPosition: 'center',
+			  backgroundRepeat: 'no-repeat',
+			  backgroundSize: 'cover',
+
+			}
+		}
+
 	return(
 		<section className="contact-section pt-5 black">
 		<form name="SaintsContactForm" method="post" >
