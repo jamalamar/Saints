@@ -46,15 +46,15 @@ render() {
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ? 
-              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Sabores</strong></MDBNavLink>
+              <MDBNavLink to="/Flavors" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Sabores</strong></MDBNavLink>
               :
-              <MDBNavLink to="/AboutUs" ><strong className="m-3">Sabores</strong></MDBNavLink>}
+              <MDBNavLink to="/Flavors" ><strong className="m-3">Sabores</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             { this.state.isOpen ?
-              <MDBNavLink to="/AboutUs" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">¿Por que es increible?</strong></MDBNavLink>
+              <MDBNavLink to="/Greatness" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">¿Por que es increible?</strong></MDBNavLink>
               :
-              <MDBNavLink to="/AboutUs" ><strong className="m-3">¿Por qué es increíble?</strong></MDBNavLink>}
+              <MDBNavLink to="/Greatness" ><strong className="m-3">¿Por qué es increíble?</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ?

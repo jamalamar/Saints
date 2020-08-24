@@ -130,7 +130,7 @@ class Home extends Component {
 
             {/******************************WHY IS IT SO GREAT?********************************/}
 
-            
+
           <MDBContainer className="px-5">
           <section className="">
               <h2 className="h1-responsive font-weight-bold text-center my-5">
@@ -150,9 +150,7 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">90 CALORÍAS</h5>
                       <p className="grey-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                        hic.
+                        Una elección de estilo de vida fundamental para mejorar su salud general.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -163,9 +161,8 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">100% NATURALES</h5>
                       <p className="grey-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                        hic.
+                        Los ingredientes naturales realzan su belleza natural y 
+                         pueden curar tu piel, tanto interna como externamente.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -203,9 +200,8 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">0g CARBS</h5>
                       <p className="grey-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                        hic.
+                        Las dietas bajas en carbohidratos puede reducir o incluso revertir
+                         los factores de riesgo de enfermedad cardiovascular y diabetes.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -216,9 +212,10 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">SIN GLUTEN</h5>
                       <p className="grey-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                        hic.
+                        Una dieta sin gluten puede ser útil para algunas personas con 
+                        irritabilidad intestinal,
+                        el trastorno neurológico ataxia por gluten, diabetes tipo 1 y 
+                        enteropatía asociada al VIH.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -289,6 +286,10 @@ class Home extends Component {
 	            </div>
 		        */}
 
+
+          {/********************************************FLAVORS*******************************************/}
+            
+
         <MDBContainer className="py-5 mt-5">
 
 
@@ -297,10 +298,6 @@ class Home extends Component {
 	        	Cualquier Ocasión
         	</MDBTypography>
 	        */}
-
-            
-          {/********************************************FLAVORS*******************************************/}
-
 
             <MDBRow className="flex-center">
               <MDBCol lg="5">
@@ -334,9 +331,9 @@ class Home extends Component {
                   dolores et quas molestias excepturi sint occaecati cupiditate 
                   non provident.
                 </p>
-                <MDBBtn color="yellow" size="md" className="waves-light ">
-                  Read more
-                </MDBBtn>
+                <Link to='/Flavors'>
+                  <MDBBtn outline color="yellow" size="md" className="waves-light">Ver Más</MDBBtn>
+                </Link>
               </MDBCol>
             </MDBRow>
 
@@ -362,13 +359,9 @@ class Home extends Component {
                   dolores et quas molestias excepturi sint occaecati cupiditate 
                   non provident.
                 </p>
-                <MDBBtn
-                  color="orange"
-                  size="md"
-                  className="mb-lg-0 mb-4 waves-light"
-                >
-                  Read more
-                </MDBBtn>
+                <Link to='/Flavors'>
+                  <MDBBtn outline color="orange" size="md" className="mb-lg-0 waves-light">Ver Más</MDBBtn>
+                </Link>
               </MDBCol>
               <MDBCol lg="5">
                 <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
@@ -418,9 +411,9 @@ class Home extends Component {
                   dolores et quas molestias excepturi sint occaecati cupiditate 
                   non provident.
                 </p>
-                <MDBBtn color="cyan" size="md" className="waves-light ">
-                  Read more
-                </MDBBtn>
+				<Link to='/Flavors'>
+                  <MDBBtn outline color="cyan" size="md" className="waves-light">Ver Más</MDBBtn>
+                </Link>
               </MDBCol>
             </MDBRow>
 
