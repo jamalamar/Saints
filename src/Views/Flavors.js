@@ -191,7 +191,7 @@ const Sabores = () => {
 }
   const style = {
     bg: {
-      backgroundImage: `url('Assets/pex6.jpg')`,
+      backgroundImage: `url('Assets/pex8.jpg')`,
       height: '30vh',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
