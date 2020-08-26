@@ -22,7 +22,7 @@ function App() {
 
         <NavBar/>
 
-        {/*<Modal/>*/}
+        <Modal/>
 
 
         <Switch>
