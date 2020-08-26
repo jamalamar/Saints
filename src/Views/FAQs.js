@@ -75,7 +75,7 @@ render() {
 	            </h3>
 	            <MDBCollapse id="collapse2" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Todas las variedades son de 355ml y tienen 90 calorías, 0g carbohidratos, 4.5% de alcohol y no se añade azúcar como endulzante.
+		              Todas las variedades son de 355ml y tienen 90 calorías, 0g carbohidratos, 0g de azúcar y 4.5% de alcohol.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>

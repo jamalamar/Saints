@@ -82,7 +82,7 @@ class Home extends Component {
                         alt="First slide"
                       />
                     </MDBCol>
-                      <Link to='/AboutUs'><MDBBtn outline color="white" className="">Descubre Más</MDBBtn></Link>
+                      <Link to='/Greatness'><MDBBtn outline color="white" className="">Descubre Más</MDBBtn></Link>
                     </MDBCol>
                   </MDBContainer>
                 </MDBView>
@@ -99,7 +99,7 @@ class Home extends Component {
                         alt="Second slide"
                       />
                     </MDBCol>
-                      <Link to='/AboutUs'><MDBBtn outline color="white" className="">Nuestros Sabores</MDBBtn></Link>
+                      <Link to='/Flavors'><MDBBtn outline color="white" className="">Nuestros Sabores</MDBBtn></Link>
                     </MDBCol>
                   </MDBContainer>
                 </MDBView>
@@ -116,7 +116,7 @@ class Home extends Component {
                         alt="Third slide"
                       />
                     </MDBCol>
-                      <Link to='/AboutUs'><MDBBtn outline color="white" className="">Comprar</MDBBtn></Link>
+                      <Link to='/BuyNow'><MDBBtn outline color="white" className="">Comprar</MDBBtn></Link>
                     </MDBCol>
                   </MDBContainer>
                 </MDBView>
@@ -130,16 +130,15 @@ class Home extends Component {
 
             {/******************************WHY IS IT SO GREAT?********************************/}
 
+          <h2 className="h1-responsive font-weight-bold text-center my-5">
+            ¿Por qué es Increíble?
+          </h2>
 
-          <MDBContainer className="px-5">
+		  <MDBContainer className="px-5">
           <section className="">
-              <h2 className="h1-responsive font-weight-bold text-center my-5">
-                ¿Por qué es Increíble?
-              </h2>
-
               <MDBRow>
                 <MDBCol md="4">
-                  <MDBRow className="mb-3 pt-5">
+                  <MDBRow className="mb-3 py-5">
                     <MDBCol size="2">
                       <MDBIcon
                         icon="bolt"
@@ -150,32 +149,29 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">90 CALORÍAS</h5>
                       <p className="grey-text">
-                        Una elección de estilo de vida fundamental para mejorar su salud general.
+                        Una elección de estilo de vida fundamental.
                       </p>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mb-3">
+                  <MDBRow className="mb-3 py-4">
                     <MDBCol size="2">
                       <MDBIcon fab icon="envira" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">100% NATURALES</h5>
                       <p className="grey-text">
-                        Los ingredientes naturales realzan su belleza natural y 
-                         pueden curar tu piel, tanto interna como externamente.
+                        Agua de Seltz con una infusión frutal.
                       </p>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mb-3">
+                  <MDBRow className="mb-3 py-5">
                     <MDBCol size="2">
                       <MDBIcon icon="glass-martini" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">4.5% ALCOHOL</h5>
                       <p className="grey-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                        hic.
+                        Para disfrutarse en cualquier ocasión.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -193,42 +189,36 @@ class Home extends Component {
                 </MDBCol>
                 
                 <MDBCol md="4">
-                  <MDBRow className="mb-3 pt-5">
+                  <MDBRow className="mb-3 py-5">
                     <MDBCol size="2">
                       <MDBIcon icon="heart" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">0g CARBS</h5>
                       <p className="grey-text">
-                        Las dietas bajas en carbohidratos puede reducir o incluso revertir
-                         los factores de riesgo de enfermedad cardiovascular y diabetes.
+                        Por qué sabemos que te importa.
                       </p>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mb-3">
+                  <MDBRow className="mb-3 py-5">
                     <MDBCol size="2">
                       <MDBIcon fab icon="pagelines" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">SIN GLUTEN</h5>
                       <p className="grey-text">
-                        Una dieta sin gluten puede ser útil para algunas personas con 
-                        irritabilidad intestinal,
-                        el trastorno neurológico ataxia por gluten, diabetes tipo 1 y 
-                        enteropatía asociada al VIH.
+                        Así de ligero es nuestro seltzer.
                       </p>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mb-3">
+                  <MDBRow className="mb-3 py-5">
                     <MDBCol size="2">
                       <MDBIcon icon="info-circle" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">SIN AZÚCAR AÑADIDA</h5>
+                      <h5 className="font-weight-bold mb-3">0g AZÚCAR</h5>
                       <p className="grey-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                        hic.
+                        Endulzado con Stevia.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -307,9 +297,9 @@ class Home extends Component {
                     src="Assets/13.png"
                     alt=""
                   />
-                  <a href="#!">
+                  <Link to='/Flavors'>
                     <MDBMask overlay="white-slight" />
-                  </a>
+                  </Link>
                 </MDBView>
               </MDBCol>
               <MDBCol lg="7">
@@ -370,9 +360,9 @@ class Home extends Component {
                     src="Assets/14.png"
                     alt=""
                   />
-                  <a href="#!">
+                  <Link to='/Flavors'>
                     <MDBMask overlay="white-slight" />
-                  </a>
+                  </Link>
                 </MDBView>
               </MDBCol>
             </MDBRow>
@@ -387,9 +377,9 @@ class Home extends Component {
                     src="Assets/15.png"
                     alt=""
                   />
-                  <a href="#!">
+                  <Link to='/Flavors'>
                     <MDBMask overlay="white-slight" />
-                  </a>
+                  </Link>
                 </MDBView>
               </MDBCol>
               <MDBCol lg="7">
