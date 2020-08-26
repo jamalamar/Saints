@@ -91,8 +91,7 @@ const Sabores = () => {
                   <MDBTypography tag="h1" variant="display-4">MANDARINA</MDBTypography>
                 </h1>
                 <p className="h4 py-3">
-                  Elaborado con ingredientes tropicales de la mejor calidad, 
-                  Saints® Mango es una bebida premium que logra cautivar los sentidos.
+                  Rescatamos la mejor expresión de cada extracto que al combinarse con nuestra Agua de Seltz, presenta un distintivo sabor cítrico refrescante y sensación ligera.
                 </p>
                 <p className="h5">Disponible en:</p>
                 <div className="py-3">
@@ -126,8 +125,7 @@ const Sabores = () => {
                   <MDBTypography tag="h1" variant="display-4">NATURAL</MDBTypography>
                 </h1>
                 <p className="h4 py-3">
-                  Elaborado con ingredientes tropicales de la mejor calidad, 
-                  Saints® Mango es una bebida premium que logra cautivar los sentidos.
+                  Descubre y disfruta el sabor refrescante y ligero acentuado con una distintiva infusión natural de “La  joya tropical”  en nuestra Agua de Seltz.
                 </p>
                 <p className="h5">Disponible en:</p>
                 <div className="py-3">
