@@ -290,11 +290,11 @@ class Home extends Component {
 	        */}
 
             <MDBRow className="flex-center">
-              <MDBCol lg="5">
-                <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <MDBCol lg="6" className="flex-center">
+                <MDBView className="mb-lg-0 mb-4 w-50" hover waves>
                   <img
                     className="img-fluid"
-                    src="Assets/13.png"
+                    src="Assets/MangoWET.png"
                     alt=""
                   />
                   <Link to='/Flavors'>
@@ -302,24 +302,16 @@ class Home extends Component {
                   </Link>
                 </MDBView>
               </MDBCol>
-              <MDBCol lg="7">
+              <MDBCol lg="6" className="">
                 <h2 className="h1-responsive font-weight-bold">
 		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
 	            </h2>
                 <h1 className="yellow-text font-weight-bold mb-3 p-0 h1-responsive">
                   <strong> MANGO</strong>
                 </h1>
-                <p>
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis dolor repellendus et aut
-                  officiis debitis.
-                </p>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui 
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos 
-                  dolores et quas molestias excepturi sint occaecati cupiditate 
-                  non provident.
+                <p className="h4 py-3 font-weight-light">
+                  Elaborado con ingredientes tropicales de la mejor calidad, 
+                  Saints® Mango es una bebida premium que logra cautivar los sentidos.
                 </p>
                 <Link to='/Flavors'>
                   <MDBBtn outline color="yellow" size="md" className="waves-light">Ver Más</MDBBtn>
@@ -330,34 +322,25 @@ class Home extends Component {
             <hr className="my-5" />
             
             <MDBRow className="flex-center">
-              <MDBCol lg="7">
+              <MDBCol lg="6" className="">
                 <h2 className="h1-responsive font-weight-bold">
 		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
 	            </h2>
                 <h1 className="orange-text font-weight-bold mb-3 p-0 h1-responsive">
                   <strong> MANDARINA</strong>
                 </h1>
-                <p>
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis dolor repellendus et aut
-                  officiis debitis.
-                </p>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui 
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos 
-                  dolores et quas molestias excepturi sint occaecati cupiditate 
-                  non provident.
+                <p className="h4 py-3 font-weight-light">
+                  Rescatamos la mejor expresión de cada extracto que al combinarse con nuestra Agua de Seltz, presenta un distintivo sabor cítrico refrescante y sensación ligera.
                 </p>
                 <Link to='/Flavors'>
                   <MDBBtn outline color="orange" size="md" className="mb-lg-0 waves-light">Ver Más</MDBBtn>
                 </Link>
               </MDBCol>
-              <MDBCol lg="5">
-                <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <MDBCol lg="6" className="flex-center">
+                <MDBView className="mb-lg-0 mb-4 w-50" hover waves>
                   <img
                     className="img-fluid"
-                    src="Assets/14.png"
+                    src="Assets/MandarinaWET.png"
                     alt=""
                   />
                   <Link to='/Flavors'>
@@ -370,11 +353,11 @@ class Home extends Component {
             <hr className="my-5" />
             
             <MDBRow className="flex-center">
-              <MDBCol lg="5">
-                <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <MDBCol lg="6" className="flex-center">
+                <MDBView className="mb-lg-0 mb-4 w-50" hover waves>
                   <img
                     className="img-fluid"
-                    src="Assets/15.png"
+                    src="Assets/NaturalWET.png"
                     alt=""
                   />
                   <Link to='/Flavors'>
@@ -382,24 +365,15 @@ class Home extends Component {
                   </Link>
                 </MDBView>
               </MDBCol>
-              <MDBCol lg="7">
+              <MDBCol lg="6" className="">
                 <h2 className="h1-responsive font-weight-bold">
 		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
 	            </h2>
                 <h1 className="cyan-text font-weight-bold mb-3 p-0 h1-responsive">
                   <strong> NATURAL</strong>
                 </h1>
-                <p>
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis dolor repellendus et aut
-                  officiis debitis.
-                </p>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui 
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos 
-                  dolores et quas molestias excepturi sint occaecati cupiditate 
-                  non provident.
+                <p className="h4 py-3 font-weight-light">
+                  Descubre y disfruta el sabor refrescante y ligero, acentuado con una distintiva infusión natural de “La Joya Tropical”  en nuestra Agua de Seltz.
                 </p>
 				<Link to='/Flavors'>
                   <MDBBtn outline color="cyan" size="md" className="waves-light">Ver Más</MDBBtn>

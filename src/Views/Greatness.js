@@ -3,15 +3,23 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBt
 
 const Sabores = () => {
   return (
-    <div className="pt-5 bg-dark">
+    <div className="bg-dark">
 
-    <MDBCard className="mt-5">
+      <MDBView>
+        <MDBCol className="p-0">
+         <div style={style.bg} className="flex-center">
+         </div>
+        </MDBCol>
+        <MDBMask/>
+      </MDBView>
+
+    <MDBCard className="">
       <MDBCardBody>
-        <h2 className="h1-responsive font-weight-bold text-center mt-5 pb-3">
+        <h2 className="h1-responsive font-weight-bold flex-center py-4">
          ¿Qué es <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>?
         </h2>
         <p className='grey-text text-center w-responsive mx-auto mb-5'>
-          Saints® Hard Seltzer es una bebida ligera hecha con base de nuestra mezcla especial de un espíritu neutro con agua de Seltz y una sutil infusión de sabor frutal natural. 
+          Saints® Hard Seltzer es una bebida ligera hecha a base de nuestra mezcla especial de un espíritu neutro con agua de Seltz y una sutil infusión de sabor frutal natural. 
         </p>
         
         <MDBContainer className="px-5">
@@ -112,5 +120,16 @@ const Sabores = () => {
     </div>
   );
 }
+
+  const style = {
+    bg: {
+      backgroundImage: `url('Assets/pex7.jpg')`,
+      height: '30vh',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+
+    }
+  }
 
 export default Sabores;
