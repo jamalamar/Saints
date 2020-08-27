@@ -245,23 +245,23 @@ class Home extends Component {
 
 
 
-        	<MDBContainer className="mt-5">
-			  <MDBRow>
+        	<MDBContainer className="mt-5 px-3" fluid>
+			  <MDBRow className="">
 
-			    <MDBCol lg="3" md="6" sm="6" className="p-1">
-				    <img src='Assets/Pex1.jpg' className="w-100 img-fluid z-depth-1-half"/>
+			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+				    <img src='Assets/Pex11.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
-			    <MDBCol lg="3" md="6" sm="6" className="p-1">
-				    <img src='Assets/Pex2.jpg' className="w-100 img-fluid z-depth-1-half"/>
+			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+				    <img src='Assets/Pex10.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
-			    <MDBCol lg="3" md="6" sm="6" className="p-1">
-				    <img src='Assets/Pex3.jpg' className="w-100 img-fluid z-depth-1-half"/>
+			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+				    <img src='Assets/Pex12.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
-			    <MDBCol lg="3" md="6" sm="6" className="p-1">
-				    <img src='Assets/Pex4.jpg' className="w-100 img-fluid z-depth-1-half"/>
+			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+				    <img src='Assets/Pex9.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 
 			  </MDBRow>
@@ -310,8 +310,8 @@ class Home extends Component {
                   <strong> MANGO</strong>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Elaborado con ingredientes tropicales de la mejor calidad, 
-                  Saints® Mango es una bebida premium que logra cautivar los sentidos.
+                  Descubre y disfruta el sabor refrescante y ligero, acentuado con una 
+                  distintiva infusión natural de “La Joya Tropical”  en nuestra Agua de Seltz.
                 </p>
                 <Link to='/Flavors'>
                   <MDBBtn outline color="yellow" size="md" className="waves-light">Ver Más</MDBBtn>
@@ -330,7 +330,8 @@ class Home extends Component {
                   <strong> MANDARINA</strong>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Rescatamos la mejor expresión de cada extracto que al combinarse con nuestra Agua de Seltz, presenta un distintivo sabor cítrico refrescante y sensación ligera.
+                	Rescatamos la mejor expresión de cada extracto que al combinarse con 
+                	nuestra Agua de Seltz, presenta un distintivo sabor cítrico refrescante y sensación ligera.
                 </p>
                 <Link to='/Flavors'>
                   <MDBBtn outline color="orange" size="md" className="mb-lg-0 waves-light">Ver Más</MDBBtn>
@@ -373,7 +374,9 @@ class Home extends Component {
                   <strong> NATURAL</strong>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Descubre y disfruta el sabor refrescante y ligero, acentuado con una distintiva infusión natural de “La Joya Tropical”  en nuestra Agua de Seltz.
+                  Sensación viva, refrescante y sabor neutro, definen la naturaleza de nuestra 
+                  Agua de Seltz, distinguiéndolo como una bebida ligera única. Ideal para acompañar 
+                  cualquier ocasión.
                 </p>
 				<Link to='/Flavors'>
                   <MDBBtn outline color="cyan" size="md" className="waves-light">Ver Más</MDBBtn>

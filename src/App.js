@@ -26,13 +26,13 @@ function App() {
 
 
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/BuyNow" component={BuyNow} />
           <Route path="/Flavors" component={Flavors} />
           <Route path="/FAQs" component={FAQs} />
           <Route path="/Greatness" component={Greatness} />
           <Route path="/Contact" component={Contact} />
-          <Route exact path='*' component={Home} />
+          <Route path='*' component={Home} />
         </Switch>
 
         <Footer />
