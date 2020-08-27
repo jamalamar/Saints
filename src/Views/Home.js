@@ -248,19 +248,19 @@ class Home extends Component {
         	<MDBContainer className="mt-5 px-3" fluid>
 			  <MDBRow className="">
 
-			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+			    <MDBCol lg='3' md="3" sm="6" className="p-1">
 				    <img src='Assets/Pex11.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
-			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+			    <MDBCol lg='3' md="3" sm="6" className="p-1">
 				    <img src='Assets/Pex10.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
-			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+			    <MDBCol lg='3' md="3" sm="6" className="p-1">
 				    <img src='Assets/Pex12.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
-			    <MDBCol lg='3' md="3" sm="6" className="p-0">
+			    <MDBCol lg='3' md="3" sm="6" className="p-1">
 				    <img src='Assets/Pex9.jpg' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 
