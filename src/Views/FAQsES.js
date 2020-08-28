@@ -43,7 +43,7 @@ render() {
 	      <MDBCardBody>
 	        
 	        <h2 className="h1-responsive font-weight-bold my-5">
-	        	FREQUENTLY ASKED QUESTIONS
+	        	PREGUNTAS FRECUENTES
 	        </h2>
 	        
 	        <hr className="my-5" />
@@ -53,11 +53,11 @@ render() {
 	          <MDBCol lg="7" xl="8">
 	            <h3 className="" >
 		            <i className={ this.state.collapseID==="collapse1" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> What are the ingredients in Saints® Hard Seltzer?</strong> 
+		            <strong> ¿Cuáles son los ingredientes de Saints® Hard Seltzer?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse1" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer is made with a blend of our Seltzer, our Gluten-Free Alcohol base, and a Fruity Infusion.
+		              Saints® Hard Seltzer está hecho con una mezcla de agua de seltz, nuestra base de alcohol sin gluten y una infusión de sabor frutal.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -71,11 +71,11 @@ render() {
 	          <MDBCol lg="10" xl="10">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse2" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> How many calories, carbohydrates, sugar and alcohol are in a Saints® Hard Seltzer?</strong> 
+		            <strong> ¿Cuántas calorías, carbohidratos, azúcar y alcohol contiene Saints® Hard Seltzer?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse2" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              All of our varieties are 12oz (355ml) and have 90 Calories, 0g Carbohydrates, 0g Sugar and 4.5% Alcohol.
+		              Todas las variedades son de 355ml y tienen 90 calorías, 0g carbohidratos, 0g de azúcar y 4.5% de alcohol.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -89,12 +89,12 @@ render() {
 	          <MDBCol lg="7" xl="8">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse3" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> What type of alcohol is in a Saints® Hard Seltzer?</strong>
+		            <strong> ¿Qué tipo de alcohol contiene Saints® Hard Seltzer?</strong>
 	            </h3>
 	            
 	            <MDBCollapse id="collapse3" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer contains a completely pure neutral spirit.
+		              Saints® Hard Seltzer contiene un destilado neutro completamente puro. 
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -108,11 +108,11 @@ render() {
 	          <MDBCol lg="10" xl="10">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse4" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> How is Saints® Hard Seltzer sweetened?...What is the sugar content?</strong> 
+		            <strong> ¿Cómo se endulza Saints® Hard Seltzer? ¿Cuál es el contenido de azúcar?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer is sweetened with Stevia (a natural, calorie-free sweetener originally derived from plants).
+		              Saints® Hard Seltzer es endulzado con Stevia (edulcorante natural sin calorías derivado originalmente de plantas).
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -126,13 +126,11 @@ render() {
 	          <MDBCol lg="7" xl="8">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse5" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> Does Saints® Hard Seltzer contain gluten?</strong> 
+		            <strong> ¿Saints® Hard Seltzer contiene gluten?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse5" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              No. Saints® Hard Seltzer is completely Gluten-Free.
-
-
+		              No. Saints® Hard Seltzer es completamente libre de gluten.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -146,11 +144,11 @@ render() {
 	          <MDBCol lg="7" xl="8">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse6" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> Does Saints® Hard Seltzer contain caffeine?</strong> 
+		            <strong> ¿Saints® Hard Seltzer contiene cafeína?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse6" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              No. Saints® Hard Seltzer does not contain caffeine.
+		              No. Saints® Hard Seltzer no contiene cafeína.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -164,11 +162,11 @@ render() {
 	          <MDBCol lg="7" xl="8">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse7" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> Does Saints® Hard Seltzer contain allergens?</strong> 
+		            <strong> ¿Saints® Hard Seltzer contiene alérgenos?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse7" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Our products do not contain common allergens such as milk, eggs, fish, shellfish, tree nuts, peanuts, wheat and soy. 
+		              Nuestros productos no contienen alérgenos comunes como leche, huevos, pescado, mariscos, nueces, maní, trigo y soya. 
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>

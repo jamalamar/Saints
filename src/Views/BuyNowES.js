@@ -34,10 +34,10 @@ function BuyNow(){
 
       <section className="text-center my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Find us at any of these Stores
+        Encuentranos en cualquiera de estas Sucursales
       </h2>
       <p className="grey-text text-center w-responsive mx-auto mb-5">
-        Click and go to your nearest store.
+        Haz click y ve a tu sucursal mas cercana.
       </p>
       <MDBRow>
         <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">

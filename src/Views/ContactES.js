@@ -36,24 +36,24 @@ function Contact(){
 		        <MDBRow className="flex-center m-0">
 		          <MDBCol lg="8">
 		          <h1 className="pl-3 cyan-text">
-			       CONTACT US
+			       CONTÁCTANOS
 			      </h1>
 		            <MDBCardBody className="form">
 		              <h3 className="mt-1">
 			            <select name="Asunto" className="browser-default custom-select" required>
-				          <option value="">SELECT AN OPTION</option>
-				          <option value="Comentarios sobre el Producto/Sabor">Product Feedback</option>
-				          <option value="Solicitud de Patrocinio">Sponsorship Request</option>
-				          <option value="Solicitud de Asociación">Partnership Inquiry</option>
-				          <option value="No puedo encontrar el producto">I Can't Find The Products</option>
-				          <option value="Otro">Other</option>
+				          <option value="">SELECCIONA UNA OPCIÓN</option>
+				          <option value="Comentarios sobre el Producto/Sabor">Comentarios sobre el Producto/Sabor</option>
+				          <option value="Solicitud de Patrocinio">Solicitud de Patrocinio</option>
+				          <option value="Solicitud de Asociación">Solicitud de Asociación</option>
+				          <option value="No puedo encontrar el producto">No puedo encontrar el producto</option>
+				          <option value="Otro">Otro</option>
 				        </select>
 		              </h3>
 		              <MDBRow>
 		                <MDBCol md="6">
 		                  <div className="md-form mb-0">
 		                    <MDBInput
-			                  label="Name"
+			                  label="Nombre"
 			                  name="Nombre"
 			                  iconClass="grey-text"
 			                  type="text"
@@ -65,7 +65,7 @@ function Contact(){
 		                <MDBCol md="6">
 		                  <div className="md-form mb-0">
 		                    <MDBInput
-			                  label="Email"
+			                  label="Correo Electrónico"
 			                  name="E-Mail"
 			                  iconClass="grey-text"
 			                  type="email"
@@ -79,7 +79,7 @@ function Contact(){
 		                <MDBCol md="6">
 		                  <div className="md-form mb-0">
 		                    <MDBInput
-		                      label="Birth Date"
+		                      label="Fecha de Nacimiento"
 			                  name="Fecha de Nacimiento"
 			                  iconClass="grey-text"
 			                  type="date"
@@ -91,7 +91,7 @@ function Contact(){
 		                <MDBCol md="6">
 		                  <div className="md-form mb-0">
 		                    <MDBInput
-		                      label="Zip Code"
+		                      label="Código Postal"
 			                  name="Código-Postal"
 			                  iconClass="grey-text"
 			                  type="text"
@@ -105,7 +105,7 @@ function Contact(){
 		                <MDBCol md="12">
 		                  <div className="md-form mb-0">
 		                    <MDBInput
-			                  label="Message"
+			                  label="Mensaje"
 			                  name="Mensaje"
 			                  iconClass="grey-text"
 			                  type="textarea"
@@ -113,7 +113,7 @@ function Contact(){
 			                  required
 		                    />
 		                    <MDBBtn type="submit" className="aqua-gradient">
-		                      Submit <MDBIcon icon="paper-plane" />
+		                      Enviar <MDBIcon icon="paper-plane" />
 		                    </MDBBtn>
 		                  </div>
 		                </MDBCol>

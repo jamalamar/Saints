@@ -82,7 +82,7 @@ class Home extends Component {
                         alt="First slide"
                       />
                     </MDBCol>
-                      <Link to='/Greatness'><MDBBtn outline color="white" className="">Learn More</MDBBtn></Link>
+                      <Link to='/Greatness'><MDBBtn outline color="white" className="">Descubre Más</MDBBtn></Link>
                     </MDBCol>
                   </MDBContainer>
                 </MDBView>
@@ -99,7 +99,7 @@ class Home extends Component {
                         alt="Second slide"
                       />
                     </MDBCol>
-                      <Link to='/Flavors'><MDBBtn outline color="white" className="">Our Flavors</MDBBtn></Link>
+                      <Link to='/Flavors'><MDBBtn outline color="white" className="">Nuestros Sabores</MDBBtn></Link>
                     </MDBCol>
                   </MDBContainer>
                 </MDBView>
@@ -116,7 +116,7 @@ class Home extends Component {
                         alt="Third slide"
                       />
                     </MDBCol>
-                      <Link to='/BuyNow'><MDBBtn outline color="white" className="">Buy Now</MDBBtn></Link>
+                      <Link to='/BuyNow'><MDBBtn outline color="white" className="">Comprar</MDBBtn></Link>
                     </MDBCol>
                   </MDBContainer>
                 </MDBView>
@@ -131,7 +131,7 @@ class Home extends Component {
             {/******************************WHY IS IT SO GREAT?********************************/}
 
           <h2 className="h1-responsive font-weight-bold text-center my-5">
-            Why is it so great?
+            ¿Por qué es Increíble?
           </h2>
 
 		  <MDBContainer className="px-5">
@@ -147,20 +147,20 @@ class Home extends Component {
                       />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">90 CALORIES</h5>
+                      <h5 className="font-weight-bold mb-3">90 CALORÍAS</h5>
                       <p className="grey-text">
-                        A fundamental lifestyle choice.
+                        Una elección de estilo de vida fundamental.
                       </p>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mb-3 py-5">
+                  <MDBRow className="mb-3 py-4">
                     <MDBCol size="2">
                       <MDBIcon fab icon="envira" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">100% NATURAL</h5>
+                      <h5 className="font-weight-bold mb-3">100% NATURALES</h5>
                       <p className="grey-text">
-                        Seltz water with a fruity infusion.
+                        Agua de Seltz con una infusión frutal.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -171,7 +171,7 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">4.5% ALCOHOL</h5>
                       <p className="grey-text">
-                        So you can enjoy it on any occasion.
+                        Para disfrutarse en cualquier ocasión.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -196,7 +196,7 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">0g CARBS</h5>
                       <p className="grey-text">
-                        Because we know you care.
+                        Por qué sabemos que te importa.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -205,9 +205,9 @@ class Home extends Component {
                       <MDBIcon fab icon="pagelines" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">GLUTEN-FREE</h5>
+                      <h5 className="font-weight-bold mb-3">SIN GLUTEN</h5>
                       <p className="grey-text">
-                        That's how light our Seltzer is.
+                        Así de ligero es nuestro seltzer.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -216,9 +216,9 @@ class Home extends Component {
                       <MDBIcon icon="info-circle" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">0g SUGAR</h5>
+                      <h5 className="font-weight-bold mb-3">0g AZÚCAR</h5>
                       <p className="grey-text">
-                        Sweetened with Stevia.
+                        Endulzado con Stevia.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -310,11 +310,11 @@ class Home extends Component {
                   <strong> MANGO</strong>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Discover and enjoy this refreshing and light flavor, accented with a
-                  distinctive natural infusion of the "Tropical Jewel" in our Seltzer.
+                  Descubre y disfruta el sabor refrescante y ligero, acentuado con una 
+                  distintiva infusión natural de “La Joya Tropical”  en nuestra Agua de Seltz.
                 </p>
                 <Link to='/Flavors'>
-                  <MDBBtn outline color="yellow" size="md" className="waves-light">More Flavors</MDBBtn>
+                  <MDBBtn outline color="yellow" size="md" className="waves-light">Ver Más</MDBBtn>
                 </Link>
               </MDBCol>
             </MDBRow>
@@ -327,14 +327,14 @@ class Home extends Component {
 		             <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
 	            </h2>
                 <h1 className="orange-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <strong> TANGERINE</strong>
+                  <strong> MANDARINA</strong>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                	We rescued the best features of each extract, and we combined it with
-                  our Seltzer to create a distinctive refreshing citrus flavor and light sensation.
+                	Rescatamos la mejor expresión de cada extracto que al combinarse con 
+                	nuestra Agua de Seltz, presenta un distintivo sabor cítrico refrescante y sensación ligera.
                 </p>
                 <Link to='/Flavors'>
-                  <MDBBtn outline color="orange" size="md" className="mb-lg-0 waves-light">More Flavors</MDBBtn>
+                  <MDBBtn outline color="orange" size="md" className="mb-lg-0 waves-light">Ver Más</MDBBtn>
                 </Link>
               </MDBCol>
               <MDBCol lg="6" className="flex-center">
@@ -374,11 +374,12 @@ class Home extends Component {
                   <strong> NATURAL</strong>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Vivid, refreshing sensation and neutral flavor. This defines the nature of our
-                  Seltzer, distinguishing it as a unique light drink. Ideal for any occasion.
+                  Sensación viva, refrescante y sabor neutro, definen la naturaleza de nuestra 
+                  Agua de Seltz, distinguiéndolo como una bebida ligera única. Ideal para acompañar 
+                  cualquier ocasión.
                 </p>
-        				<Link to='/Flavors'>
-                  <MDBBtn outline color="cyan" size="md" className="waves-light">More Flavors</MDBBtn>
+				<Link to='/Flavors'>
+                  <MDBBtn outline color="cyan" size="md" className="waves-light">Ver Más</MDBBtn>
                 </Link>
               </MDBCol>
             </MDBRow>

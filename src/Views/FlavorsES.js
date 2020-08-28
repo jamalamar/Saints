@@ -20,10 +20,10 @@ const Sabores = () => {
     <MDBCard className="">
       <MDBCardBody>        
         <h1 className="text-center mb-3 pt-5 h1-responsive">
-          <MDBTypography tag="h1" variant="display-4">OUR FLAVORS</MDBTypography>
+          <MDBTypography tag="h1" variant="display-4">NUESTROS SABORES</MDBTypography>
         </h1>
         <p className='grey-text text-center w-responsive mx-auto mb-5'>
-        90 calories, 4.5% alcohol, 0g carbohydrates, 0g sugar per 12oz (355ml) can.
+        90 calorías, 4.5% alcohol, 0g carbohidratos, 0g de azúcar por lata de 355ml.
         </p>
 
         <MDBContainer className="pb-5">
@@ -57,16 +57,15 @@ const Sabores = () => {
                   <MDBTypography tag="h1" variant="display-4">MANGO</MDBTypography>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Discover and enjoy this refreshing and light flavor, accented with a
-                  distinctive natural infusion of the "Tropical Jewel" in our Seltzer.
+                  Descubre y disfruta el sabor refrescante y ligero, acentuado con una distintiva infusión natural de “La Joya Tropical”  en nuestra Agua de Seltz.
                 </p>
-                <p className="h5 font-weight-bold">Available in:</p>
+                <p className="h5 font-weight-bold">Disponible en:</p>
                 <div className="py-3">
-                  <p className="py-1">Variety Pack / 12-Pack</p>
-                  <p className="py-1">Mango Pack / 6-Pack</p>
+                  <p className="py-1">Pack de Variedad / Caja de 12</p>
+                  <p className="py-1">Pack Mango / Caja de 6</p>
                 </div>
                 <Link to='/BuyNow' className="p-0">
-                  <MDBBtn color="yellow" size="bg" className="waves-light">Buy Now</MDBBtn>
+                  <MDBBtn color="yellow" size="bg" className="waves-light">Comprar</MDBBtn>
                 </Link>
               </MDBCol>
             </MDBRow>
@@ -91,19 +90,18 @@ const Sabores = () => {
                  <img src='Assets/SaintsTitleB.png' style={{width: '40%'}}/>
               </h2>
                 <h1 className="orange-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <MDBTypography tag="h1" variant="display-4">TANGERINE</MDBTypography>
+                  <MDBTypography tag="h1" variant="display-4">MANDARINA</MDBTypography>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  We rescued the best features of each extract, and we combined it with
-                  our Seltzer to create a distinctive refreshing citrus flavor and light sensation.
+                  Rescatamos la mejor expresión de cada extracto que al combinarse con nuestra Agua de Seltz, presenta un distintivo sabor cítrico refrescante y sensación ligera.
                 </p>
-                <p className="h5 font-weight-bold">Available in:</p>
+                <p className="h5 font-weight-bold">Disponible en:</p>
                 <div className="py-3">
-                  <p className="py-1">Variety Pack / 12-Pack</p>
-                  <p className="py-1">Tangerine Pack / 6-Pack</p>
+                  <p className="py-1">Pack de Variedad / Caja de 12</p>
+                  <p className="py-1">Pack Mandarina / Caja de 6</p>
                 </div>
                 <Link to='/BuyNow' className="p-0">
-                  <MDBBtn color="orange" size="bg" className="waves-light">Buy Now</MDBBtn>
+                  <MDBBtn color="orange" size="bg" className="waves-light">Comprar</MDBBtn>
                 </Link>
               </MDBCol>
             </MDBRow>
@@ -131,16 +129,17 @@ const Sabores = () => {
                   <MDBTypography tag="h1" variant="display-4">NATURAL</MDBTypography>
                 </h1>
                 <p className="h4 py-3 font-weight-light">
-                  Vivid, refreshing sensation and neutral flavor. This defines the nature of our
-                  Seltzer, distinguishing it as a unique light drink. Ideal for any occasion.
+                  Sensación viva, refrescante y sabor neutro, definen la naturaleza de nuestra 
+                  Agua de Seltz, distinguiéndolo como una bebida ligera única. Ideal para acompañar 
+                  cualquier ocasión.
                 </p>
-                <p className="h5 font-weight-bold">Available in:</p>
+                <p className="h5 font-weight-bold">Disponible en:</p>
                 <div className="py-3">
-                  <p className="py-1">Variety Pack / 12-Pack</p>
-                  <p className="py-1">Natural Pack / 6-Pack</p>
+                  <p className="py-1">Pack de Variedad / Caja de 12</p>
+                  <p className="py-1">Pack Natural / Caja de 6</p>
                 </div>
                 <Link to='/BuyNow' className="p-0">
-                  <MDBBtn color="cyan" size="bg" className="waves-light">Buy Now</MDBBtn>
+                  <MDBBtn color="cyan" size="bg" className="waves-light">Comprar</MDBBtn>
                 </Link>
               </MDBCol>
             </MDBRow>
@@ -153,7 +152,7 @@ const Sabores = () => {
                  <img src='Assets/SaintsTitleB.png' style={{width: '75%'}}/>
               </h2>
                 <h1 className="purple-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <MDBTypography tag="h2" variant="display-5">COMING SOON</MDBTypography>
+                  <MDBTypography tag="h2" variant="display-5">PRÓXIMAMENTE</MDBTypography>
                 </h1>
               </MDBCol>
             </MDBRow>
@@ -166,7 +165,7 @@ const Sabores = () => {
                  <img src='Assets/SaintsTitleB.png' style={{width: '75%'}}/>
               </h2>
                 <h1 className="green-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <MDBTypography tag="h2" variant="display-5">COMING SOON</MDBTypography>
+                  <MDBTypography tag="h2" variant="display-5">PRÓXIMAMENTE</MDBTypography>
                 </h1>
               </MDBCol>
             </MDBRow>
@@ -179,7 +178,7 @@ const Sabores = () => {
                  <img src='Assets/SaintsTitleB.png' style={{width: '75%'}}/>
               </h2>
                 <h1 className="red-text font-weight-bold mb-3 p-0 h1-responsive">
-                  <MDBTypography tag="h2" variant="display-5">COMING SOON</MDBTypography>
+                  <MDBTypography tag="h2" variant="display-5">PRÓXIMAMENTE</MDBTypography>
                 </h1>
               </MDBCol>
             </MDBRow>

@@ -16,10 +16,10 @@ const Sabores = () => {
     <MDBCard className="">
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold flex-center py-4">
-         What is <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>?
+         ¿Qué es <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>?
         </h2>
         <p className='grey-text text-center w-responsive mx-auto mb-5'>
-          Saints® Hard Seltzer is a light drink made from our special blend of a neutral spirit, with our signature Seltzer and a subtle infusion of natural fruit flavor. 
+          Saints® Hard Seltzer es una bebida ligera hecha a base de nuestra mezcla especial de un espíritu neutro con nuestra emblemática Agua de Seltz y una sutil infusión de sabor frutal natural. 
         </p>
         
         <MDBContainer className="px-5">
@@ -35,9 +35,9 @@ const Sabores = () => {
                       />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">90 CALORIES</h5>
+                      <h5 className="font-weight-bold mb-3">90 CALORÍAS</h5>
                       <p className="grey-text">
-                        A fundamental lifestyle choice.
+                        Una elección de estilo de vida fundamental.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -46,9 +46,9 @@ const Sabores = () => {
                       <MDBIcon fab icon="envira" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">100% NATURAL</h5>
+                      <h5 className="font-weight-bold mb-3">100% NATURALES</h5>
                       <p className="grey-text">
-                        Seltz water with a fruity infusion.
+                        Agua de Seltz con una infusión frutal.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -59,7 +59,7 @@ const Sabores = () => {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">4.5% ALCOHOL</h5>
                       <p className="grey-text">
-                        So you can enjoy it on any occasion.
+                        Para disfrutarse en cualquier ocasión.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -84,7 +84,7 @@ const Sabores = () => {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">0g CARBS</h5>
                       <p className="grey-text">
-                        Because we know you care.
+                        Por qué sabemos que te importa.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -93,9 +93,9 @@ const Sabores = () => {
                       <MDBIcon fab icon="pagelines" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">GLUTEN-FREE</h5>
+                      <h5 className="font-weight-bold mb-3">SIN GLUTEN</h5>
                       <p className="grey-text">
-                        That's how light our Seltzer is.
+                        Así de ligero es nuestro seltzer.
                       </p>
                     </MDBCol>
                   </MDBRow>
@@ -104,9 +104,9 @@ const Sabores = () => {
                       <MDBIcon icon="info-circle" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">0g SUGAR</h5>
+                      <h5 className="font-weight-bold mb-3">0g AZÚCAR</h5>
                       <p className="grey-text">
-                        Sweetened with Stevia.
+                        Endulzado con Stevia.
                       </p>
                     </MDBCol>
                   </MDBRow>

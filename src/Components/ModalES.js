@@ -31,23 +31,23 @@ render() {
           <img src="Assets/Saints_WHITE.png" className="w-75" />
         </MDBModalHeader>
         <MDBModalBody className="white black-text h3">
-          Are you over 21?
+          ¿Eres mayor de 18 años?
         </MDBModalBody>
         <MDBModalFooter className="black flex-center font-weight-lighter">
           
             { this.state.age ? "" : <p className="black m-0 red-text font-weight-normal">
-            We are sorry. We take our
-            responsibility to limit the access to the
-            website to adults of legal drinking age.
-            For more information visit <a href="https://www.responsibility.org" target="__blank" className="white-text"> Responsibility.Org.</a>
+            Lo sentimos. Nos tomamos muy en serio nuestra 
+            responsabilidad de limitar el acceso al sitio 
+            web a los adultos en edad legal para beber. 
+            Para obtener más información, visite <a href="https://www.responsibility.org/en-espanol/" target="__blank" className="white-text"> Responsibility.Org.</a>
             </p> }
           
-          <MDBBtn className="aqua-gradient" onClick={this.toggle}>YES</MDBBtn>
+          <MDBBtn className="aqua-gradient" onClick={this.toggle}>SI</MDBBtn>
           <MDBBtn color="red" onClick={this.toggleWarning}>NO</MDBBtn>
             
             <p className="white-text">
-            You must be 21 years or older to participate.
-            Please drink responsibly.
+            Debes tener 18 años o más para participar. 
+            Por favor beber responsablemente. 
             © 2020 SAINTS HARD SELTZER
             </p>
 

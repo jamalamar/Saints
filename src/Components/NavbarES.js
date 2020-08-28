@@ -18,7 +18,7 @@ import {
       } from "mdbreact";
 
 
-class Navbar extends Component {
+class NavbarES extends Component {
 state = {
   isOpen: false,
 };
@@ -32,7 +32,7 @@ render() {
   return (
       <MDBNavbar color="black" dark scrolling transparent={ this.state.isOpen ? false : true} expand="xl" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
-          <MDBNavLink to="/"><img src='Assets/Saints_T_White.png' fluid/></MDBNavLink>
+          <MDBNavLink to="/es"><img src='Assets/Saints_T_White.png' fluid/></MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
@@ -40,33 +40,33 @@ render() {
           <MDBNavbarNav right>   
             <MDBNavItem>
               {this.state.isOpen ? 
-              <MDBNavLink to="/BuyNow" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Buy Now</strong></MDBNavLink>
+              <MDBNavLink to="/Comprar" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Comprar Ahora</strong></MDBNavLink>
               :
-              <MDBNavLink to="/BuyNow" ><strong className="m-3">Buy Now</strong></MDBNavLink>}
+              <MDBNavLink to="/Comprar" ><strong className="m-3">Comprar Ahora</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ? 
-              <MDBNavLink to="/Flavors" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Flavors</strong></MDBNavLink>
+              <MDBNavLink to="/Sabores" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Sabores</strong></MDBNavLink>
               :
-              <MDBNavLink to="/Flavors" ><strong className="m-3">Flavors</strong></MDBNavLink>}
+              <MDBNavLink to="/Sabores" ><strong className="m-3">Sabores</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             { this.state.isOpen ?
-              <MDBNavLink to="/Greatness" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Why is it so Great?</strong></MDBNavLink>
+              <MDBNavLink to="/Grandeza" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">¿Por que es increible?</strong></MDBNavLink>
               :
-              <MDBNavLink to="/Greatness" ><strong className="m-3">Why is it so Great?</strong></MDBNavLink>}
+              <MDBNavLink to="/Grandeza" ><strong className="m-3">¿Por qué es increíble?</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
               {this.state.isOpen ?
-              <MDBNavLink to="/FAQs" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">FAQs</strong></MDBNavLink>
+              <MDBNavLink to="/Preguntas" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Preguntas Frecuentes</strong></MDBNavLink>
               :
-              <MDBNavLink to="/FAQs" ><strong className="m-3">FAQs</strong></MDBNavLink>}
+              <MDBNavLink to="/Preguntas" ><strong className="m-3">Preguntas Frecuentes</strong></MDBNavLink>}
             </MDBNavItem>
             <MDBNavItem>
             {this.state.isOpen ?
-              <MDBNavLink to="/Contact" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Contact</strong></MDBNavLink>
+              <MDBNavLink to="/Contacto" onClick={this.toggleCollapse}><strong className="m-3 flex-center cyan-text">Contacto</strong></MDBNavLink>
               :
-              <MDBNavLink to="/Contact" ><strong className="m-3">Contact</strong></MDBNavLink>}
+              <MDBNavLink to="/Contacto" ><strong className="m-3">Contacto</strong></MDBNavLink>}
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
@@ -88,10 +88,10 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle caret color="black" className="p-2 white-text">
-                  <strong className="font-weight-bold">ENGLISH</strong>
+                  <strong className="font-weight-bold">ESPAÑOL</strong>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="black p-0 m-0">
-                  <MDBDropdownItem href="https://saintseltzer.com/es" className="white-text font-weight-bold">ESPAÑOL</MDBDropdownItem>
+                  <MDBDropdownItem href="https://saintseltzer.com/" className="white-text font-weight-bold">ENGLISH</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
@@ -104,4 +104,4 @@ render() {
   }
 }
 
-export default Navbar;
+export default NavbarES;
