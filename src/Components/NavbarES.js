@@ -91,7 +91,7 @@ render() {
                   <strong className="font-weight-bold">ESPAÑOL</strong>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="black p-0 m-0">
-                  <MDBDropdownItem href="https://saintseltzer.com/" className="white-text font-weight-bold">ENGLISH</MDBDropdownItem>
+                  <MDBDropdownItem href="https://saintseltzer.com/" className="white-text font-weight-bold flex-center">ENGLISH</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
