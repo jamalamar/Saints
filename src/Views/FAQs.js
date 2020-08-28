@@ -50,7 +50,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse1")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3 className="" >
 		            <i className={ this.state.collapseID==="collapse1" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> What are the ingredients in Saints® Hard Seltzer?</strong> 
@@ -68,7 +68,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse2")}>
 	        <MDBRow>
-	          <MDBCol lg="10" xl="10">
+	          <MDBCol md='12' sm="12">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse2" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> How many calories, carbohydrates, sugar and alcohol are in a Saints® Hard Seltzer?</strong> 
@@ -86,7 +86,7 @@ render() {
 	        
 	        <a onClick={this.toggleCollapse("collapse3")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse3" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> What type of alcohol is in a Saints® Hard Seltzer?</strong>
@@ -105,10 +105,10 @@ render() {
 
             <a onClick={this.toggleCollapse("collapse4")}>
 	        <MDBRow>
-	          <MDBCol lg="10" xl="10">
+	          <MDBCol md="12" sm="12">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse4" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> How is Saints® Hard Seltzer sweetened?...What is the sugar content?</strong> 
+		            <strong> How is Saints® Hard Seltzer sweetened?... What is the sugar content?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
@@ -123,7 +123,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse5")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse5" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> Does Saints® Hard Seltzer contain gluten?</strong> 
@@ -143,7 +143,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse6")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse6" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> Does Saints® Hard Seltzer contain caffeine?</strong> 
@@ -161,7 +161,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse7")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse7" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> Does Saints® Hard Seltzer contain allergens?</strong> 

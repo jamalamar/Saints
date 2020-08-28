@@ -50,7 +50,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse1")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3 className="" >
 		            <i className={ this.state.collapseID==="collapse1" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Cuáles son los ingredientes de Saints® Hard Seltzer?</strong> 
@@ -68,7 +68,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse2")}>
 	        <MDBRow>
-	          <MDBCol lg="10" xl="10">
+	          <MDBCol lgmd='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse2" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Cuántas calorías, carbohidratos, azúcar y alcohol contiene Saints® Hard Seltzer?</strong> 
@@ -86,7 +86,7 @@ render() {
 	        
 	        <a onClick={this.toggleCollapse("collapse3")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse3" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Qué tipo de alcohol contiene Saints® Hard Seltzer?</strong>
@@ -105,7 +105,7 @@ render() {
 
             <a onClick={this.toggleCollapse("collapse4")}>
 	        <MDBRow>
-	          <MDBCol lg="10" xl="10">
+	          <MDBCol lgmd='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse4" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Cómo se endulza Saints® Hard Seltzer? ¿Cuál es el contenido de azúcar?</strong> 
@@ -123,7 +123,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse5")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse5" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Saints® Hard Seltzer contiene gluten?</strong> 
@@ -141,7 +141,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse6")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse6" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Saints® Hard Seltzer contiene cafeína?</strong> 
@@ -159,7 +159,7 @@ render() {
 	        
             <a onClick={this.toggleCollapse("collapse7")}>
 	        <MDBRow>
-	          <MDBCol lg="7" xl="8">
+	          <MDBCol md='12' sm='12'>
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse7" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
 		            <strong> ¿Saints® Hard Seltzer contiene alérgenos?</strong> 
