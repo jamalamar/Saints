@@ -91,7 +91,7 @@ class Home extends Component {
               <MDBCarouselItem itemId="2">
                 <MDBView>
                   <MDBContainer className="p-5">
-                    <MDBCol className="text-white text-center py-5" >
+                    <MDBCol className="text-white text-center pt-5" >
                       <MDBCol className="py-5" md="6" style={style.logoHeader}>
                       <img 
                         className="img-fluid"
@@ -108,10 +108,10 @@ class Home extends Component {
               <MDBCarouselItem itemId="3">
                 <MDBView>
                   <MDBContainer className="p-5">
-                    <MDBCol className="text-white text-center py-5" >
-                      <MDBCol className="py-5" md="6" style={style.logoHeader}>
+                    <MDBCol className="text-white text-center pt-5" >
+                      <MDBCol className="py-5 flex-center" md="6" style={style.logoHeader}>
                       <img 
-                        className="img-fluid"
+                        className="img-fluid w-75"
                         src='/Assets/VarPack.png' 
                         alt="Third slide"
                       />
