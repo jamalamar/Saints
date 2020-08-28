@@ -39,7 +39,7 @@ render() {
 	      <MDBMask/>
 	  	</MDBView>
 
-	    <MDBCard className="px-5">
+	    <MDBCard className='px-3'>
 	      <MDBCardBody>
 	        
 	        <h2 className="h1-responsive font-weight-bold my-5">
