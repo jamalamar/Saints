@@ -42,9 +42,9 @@ function BuyNow(){
       <MDBRow>
         <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
           <div collection className="">
-            <a href="https://www.laeuropea.com.mx/tiendas" target="__blank" className="view zoom">
+            <a href="https://www.ubereats.com" target="__blank" className="view zoom">
               <img
-                src="Assets/europea.jpg"
+                src="Assets/Uber_eats.png"
                 className="img-fluid"
                 alt=""
               />
@@ -53,10 +53,10 @@ function BuyNow(){
         </MDBCol>
         <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
           <div collection className="">
-            <a href="https://www.7-eleven.com.mx/buscador-tiendas/#/stores" target="__blank" className="view zoom">
+            <a href="https://www.rappi.com.mx" target="__blank" className="view zoom">
               <div>
               <img
-                src="Assets/7eleven.png"
+                src="Assets/Rappi.png"
                 className="img-fluid"
                 alt=""
               />
@@ -66,9 +66,9 @@ function BuyNow(){
         </MDBCol>
         <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
           <div collection className="">
-            <a href="https://www.oxxo.cl/ubicaciones" target="__blank" className="view zoom">
+            <a href="https://www.amazon.com" target="__blank" className="view zoom">
               <img
-                src="Assets/oxxo.png"
+                src="Assets/Amazon.png"
                 className="img-fluid"
                 alt=""
               />
@@ -77,9 +77,58 @@ function BuyNow(){
         </MDBCol>
         <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
           <div collection className="">
-            <a href="https://www.superama.com.mx/informacion/directorio-de-tiendas" target="__blank" className="view zoom">
+            <a href="https://www.mercadolibre.com" target="__blank" className="view zoom">
               <img
-                src="Assets/superama.png"
+                src="Assets/Mercado_libre.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+      </MDBRow>
+
+      <MDBRow>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="http://elliquorstore.com" target="__blank" className="view zoom">
+              <img
+                src="Assets/Liquor_store.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://vineira.com" target="__blank" className="view zoom">
+              <div>
+              <img
+                src="Assets/Vineira.png"
+                className="img-fluid"
+                alt=""
+              />
+              </div>
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://yema.mx" target="__blank" className="view zoom">
+              <img
+                src="Assets/Yema.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.5liquorstore.com" target="__blank" className="view zoom">
+              <img
+                src="Assets/Cinco_liquor.png"
                 className="img-fluid"
                 alt=""
               />
