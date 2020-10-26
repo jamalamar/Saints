@@ -46,7 +46,7 @@ const Sabores = () => {
                       <MDBIcon fab icon="envira" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">100% NATURALES</h5>
+                      <h5 className="font-weight-bold mb-3">INGREDIENTES NATURALES</h5>
                       <p className="grey-text">
                         Agua de Seltz con una infusión frutal.
                       </p>
@@ -104,9 +104,9 @@ const Sabores = () => {
                       <MDBIcon icon="info-circle" size="2x" className="cyan-text" />
                     </MDBCol>
                     <MDBCol size="10">
-                      <h5 className="font-weight-bold mb-3">0g AZÚCAR</h5>
+                      <h5 className="font-weight-bold mb-3">0% AZÚCAR</h5>
                       <p className="grey-text">
-                        Endulzado con Stevia.
+                        Endulzado sin calorías.
                       </p>
                     </MDBCol>
                   </MDBRow>
