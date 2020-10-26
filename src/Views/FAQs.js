@@ -112,7 +112,7 @@ render() {
 	            </h3>
 	            <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer is sweetened with an andulcorant that is non-caloric.
+		              Saints® Hard Seltzer is sweetened with a non-caloric sweetener.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
