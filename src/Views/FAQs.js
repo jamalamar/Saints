@@ -75,7 +75,7 @@ render() {
 	            </h3>
 	            <MDBCollapse id="collapse2" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              All of our varieties are 12oz (355ml) and have 90 Calories, 0g Carbohydrates, 0g Sugar and 4.5% Alcohol.
+		              All of our varieties are 12oz (355ml) and have 90 Calories, 0g Carbohydrates, 0% Sugar and 4.5% Alcohol.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -108,11 +108,11 @@ render() {
 	          <MDBCol md="12" sm="12">
 	            <h3>
 		            <i className={ this.state.collapseID==="collapse4" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
-		            <strong> How is Saints® Hard Seltzer sweetened?... What is the sugar content?</strong> 
+		            <strong> How is Saints® Hard Seltzer sugar free?</strong> 
 	            </h3>
 	            <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer is sweetened with Stevia (a natural, calorie-free sweetener originally derived from plants).
+		              Saints® Hard Seltzer is sweetened with an andulcorant that is non-caloric.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>

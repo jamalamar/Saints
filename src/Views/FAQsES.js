@@ -75,7 +75,7 @@ render() {
 	            </h3>
 	            <MDBCollapse id="collapse2" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Todas las variedades son de 355ml y tienen 90 calorías, 0g carbohidratos, 0g de azúcar y 4.5% de alcohol.
+		              Todas las variedades son de 355ml y tienen 90 calorías, 0g carbohidratos, 0% de azúcar y 4.5% de alcohol.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -94,7 +94,7 @@ render() {
 	            
 	            <MDBCollapse id="collapse3" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer contiene un destilado neutro completamente puro. 
+		              Saints® Hard Seltzer contiene un espiritu neutro completamente puro. 
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
@@ -112,7 +112,7 @@ render() {
 	            </h3>
 	            <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
 		            <p className="dark-grey-text" isOpen={this.state.collapseID}>
-		              Saints® Hard Seltzer es endulzado con Stevia (edulcorante natural sin calorías derivado originalmente de plantas).
+		              Saints® Hard Seltzer es endulzado con un endulcorante que no agrega calorias y no contiene azucar.
 		            </p>
 	            </MDBCollapse>
 	          </MDBCol>
