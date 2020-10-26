@@ -218,7 +218,7 @@ class Home extends Component {
                     <MDBCol size="10">
                       <h5 className="font-weight-bold mb-3">0% SUGAR</h5>
                       <p className="grey-text">
-                        Non-Caloric Sweetener.
+                        Sweetened without calories.
                       </p>
                     </MDBCol>
                   </MDBRow>
