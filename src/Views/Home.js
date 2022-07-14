@@ -18,7 +18,8 @@ import {
   MDBModal, 
   MDBModalBody, 
   MDBModalHeader, 
-  MDBModalFooter
+  MDBModalFooter,
+  MDBCarouselCaption
 } from 'mdbreact';
 
 import '../VideoBackgroundPage.css';
@@ -40,33 +41,33 @@ class Home extends Component {
 
     return (
       <div className="">
-      
+    
       {/******************************BACKGROUND********************************/}
       
+      
       <div id='videobackground'>
-
         <MDBView>
-          <MDBMask className='gradient'>
+          <MDBMask className=''>
             <video
               className='video-intro'
-              poster='https://i.imgur.com/NV9PCLr.mp4'
+              poster='https://i.imgur.com/uFAiPhV.mp4'
               muted
               loop
               autoPlay
             >
               <source
-                src='https://i.imgur.com/NV9PCLr.mp4'
+                src='https://i.imgur.com/uFAiPhV.mp4'
                 type='video/mp4'
               />
             </video>
           </MDBMask>{' '}
+        
           
-          {/******************************CAROUSEL********************************/}
-
+          {/***************************CAROUSEL (change lenght to show other items)*****************************/}
 
           <MDBCarousel
             activeItem={1}
-            length={3}
+            length={1}
             showControls={true}
             showIndicators={true}
           >
@@ -78,7 +79,7 @@ class Home extends Component {
                       <MDBCol className="py-5" md="6" style={style.logoHeader}>
                       <img 
                         className="img-fluid"
-                        src='/Assets/Saints_WHITE.png' 
+                        src='/Assets/Saints_White.png' 
                         alt="First slide"
                       />
                     </MDBCol>
@@ -88,6 +89,7 @@ class Home extends Component {
                 </MDBView>
               </MDBCarouselItem>
 
+              
               <MDBCarouselItem itemId="2">
                 <MDBView>
                   <MDBContainer className="p-5">
@@ -125,7 +127,7 @@ class Home extends Component {
           </MDBCarousel>
    
         </MDBView>
-        </div>
+        </div> 
 
 
             {/******************************WHY IS IT SO GREAT?********************************/}
@@ -228,6 +230,7 @@ class Home extends Component {
             </MDBContainer>
 
 
+
           {/****************************************IMAGE BANNER****************************************/}
 
 
@@ -249,19 +252,19 @@ class Home extends Component {
 			  <MDBRow className="">
 
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex11.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta1.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex10.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta2.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex12.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta3.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex9.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta4.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 
 			  </MDBRow>
@@ -382,6 +385,7 @@ class Home extends Component {
                 </Link>
               </MDBCol>
             </MDBRow>
+            
 
         </MDBContainer>
       </div>

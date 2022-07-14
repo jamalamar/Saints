@@ -46,27 +46,27 @@ class Home extends Component {
       <div id='videobackground'>
 
         <MDBView>
-          <MDBMask className='gradient'>
+          <MDBMask className=''>
             <video
               className='video-intro'
-              poster='https://i.imgur.com/NV9PCLr.mp4'
+              poster='https://i.imgur.com/uFAiPhV.mp4'
               muted
               loop
               autoPlay
             >
               <source
-                src='https://i.imgur.com/NV9PCLr.mp4'
+                src='https://i.imgur.com/uFAiPhV.mp4'
                 type='video/mp4'
               />
             </video>
           </MDBMask>{' '}
           
-          {/******************************CAROUSEL********************************/}
+          {/***************************CAROUSEL (change lenght to show other items)*****************************/}
 
 
           <MDBCarousel
             activeItem={1}
-            length={3}
+            length={1}
             showControls={true}
             showIndicators={true}
           >
@@ -249,19 +249,19 @@ class Home extends Component {
 			  <MDBRow className="">
 
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex11.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta1.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex10.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta2.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex12.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta3.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 			    
 			    <MDBCol lg='3' md="3" sm="6" className="p-1">
-				    <img src='Assets/Pex9.jpg' className="w-100 img-fluid z-depth-1-half"/>
+				    <img src='Assets/insta4.png' className="w-100 img-fluid z-depth-1-half"/>
 			    </MDBCol>
 
 			  </MDBRow>
