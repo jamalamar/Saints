@@ -34,10 +34,10 @@ function BuyNow(){
 
       <section className="text-center my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Encuentranos en cualquiera de estas Sucursales
+        Encuéntranos en cualquiera de estas Sucursales
       </h2>
       <p className="grey-text text-center w-responsive mx-auto mb-5">
-        Haz click y ve a tu sucursal mas cercana.
+        Haz clic y ve a tu sucursal mas cercana.
       </p>
       <MDBRow>
         <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
@@ -129,6 +129,55 @@ function BuyNow(){
             <a href="https://www.5liquorstore.com" target="__blank" className="view zoom">
               <img
                 src="Assets/Cinco_liquor.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+      </MDBRow>
+
+      <MDBRow>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.google.com/maps/search/chedraui/" target="__blank" className="view zoom">
+              <img
+                src="Assets/Chedraui.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.google.com/maps/search/chedraui+selecto/" target="__blank" className="view zoom">
+              <div>
+              <img
+                src="Assets/Selecto.png"
+                className="img-fluid"
+                alt=""
+              />
+              </div>
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.google.com/maps/search/city+market/" target="__blank" className="view zoom">
+              <img
+                src="Assets/CityMarket.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.didi-food.com/es-MX" target="__blank" className="view zoom">
+              <img
+                src="Assets/Didi.png"
                 className="img-fluid"
                 alt=""
               />

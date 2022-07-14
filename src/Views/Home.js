@@ -385,7 +385,39 @@ class Home extends Component {
                 </Link>
               </MDBCol>
             </MDBRow>
+
+            <hr className="my-5" />
             
+            <MDBRow className="flex-center">
+              <MDBCol lg="6" className="">
+                <h2 className="h1-responsive font-weight-bold">
+                 <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
+              </h2>
+                <h1 className="pink-text font-weight-bold mb-3 p-0 h1-responsive">
+                  <strong> STRAWBERRY-KIWI</strong>
+                </h1>
+                <p className="h4 py-3 font-weight-light">
+                  The freshness in strawberries and kiwifruit are the perfect match for Hard Seltzer,
+                  this flavorful combination is one of a kind.
+                </p>
+                <Link to='/Flavors'>
+                  <MDBBtn outline color="pink" size="md" className="mb-lg-0 waves-light">More Flavors</MDBBtn>
+                </Link>
+              </MDBCol>
+              <MDBCol lg="6" className="flex-center">
+                <MDBView className="mb-lg-0 mb-4 w-50" hover waves>
+                  <img
+                    className="img-fluid"
+                    src="Assets/FresaKiwiWET.png"
+                    alt=""
+                  />
+                  <Link to='/Flavors'>
+                    <MDBMask overlay="white-slight" />
+                  </Link>
+                </MDBView>
+              </MDBCol>
+            </MDBRow>
+
 
         </MDBContainer>
       </div>

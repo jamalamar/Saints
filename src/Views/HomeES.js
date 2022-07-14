@@ -378,9 +378,41 @@ class Home extends Component {
                   Agua de Seltz, distinguiéndolo como una bebida ligera única. Ideal para acompañar 
                   cualquier ocasión.
                 </p>
-				<Link to='/Flavors'>
+				        <Link to='/Flavors'>
                   <MDBBtn outline color="cyan" size="md" className="waves-light">Ver Más</MDBBtn>
                 </Link>
+              </MDBCol>
+            </MDBRow>
+
+            <hr className="my-5" />
+            
+            <MDBRow className="flex-center">
+              <MDBCol lg="6" className="">
+                <h2 className="h1-responsive font-weight-bold">
+                 <img src='Assets/SaintsTitleB.png' style={{width: '25%'}}/>
+              </h2>
+                <h1 className="pink-text font-weight-bold mb-3 p-0 h1-responsive">
+                  <strong> FRESA-KIWI</strong>
+                </h1>
+                <p className="h4 py-3 font-weight-light">
+                  La frescura en las fresas y el kiwi hacen al dúo perfecto para el Hard Seltzer,
+                  esta grandiosa combinación es única.
+                </p>
+                <Link to='/Flavors'>
+                  <MDBBtn outline color="pink" size="md" className="mb-lg-0 waves-light">Ver Más</MDBBtn>
+                </Link>
+              </MDBCol>
+              <MDBCol lg="6" className="flex-center">
+                <MDBView className="mb-lg-0 mb-4 w-50" hover waves>
+                  <img
+                    className="img-fluid"
+                    src="Assets/FresaKiwiWET.png"
+                    alt=""
+                  />
+                  <Link to='/Flavors'>
+                    <MDBMask overlay="white-slight" />
+                  </Link>
+                </MDBView>
               </MDBCol>
             </MDBRow>
 

@@ -136,6 +136,55 @@ function BuyNow(){
           </div>
         </MDBCol>
       </MDBRow>
+
+      <MDBRow>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.google.com/maps/search/chedraui/" target="__blank" className="view zoom">
+              <img
+                src="Assets/Chedraui.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.google.com/maps/search/chedraui+selecto/" target="__blank" className="view zoom">
+              <div>
+              <img
+                src="Assets/Selecto.png"
+                className="img-fluid"
+                alt=""
+              />
+              </div>
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.google.com/maps/search/city+market/" target="__blank" className="view zoom">
+              <img
+                src="Assets/CityMarket.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+        <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
+          <div collection className="">
+            <a href="https://www.didi-food.com/es-MX" target="__blank" className="view zoom">
+              <img
+                src="Assets/Didi.png"
+                className="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </MDBCol>
+      </MDBRow>
     </section>
 
 
