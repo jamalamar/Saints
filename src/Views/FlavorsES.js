@@ -61,8 +61,9 @@ const Sabores = () => {
                 </p>
                 <p className="h5 font-weight-bold">Disponible en:</p>
                 <div className="py-3">
-                  <p className="py-1">Pack de Variedad / Caja de 12</p>
-                  <p className="py-1">Pack Mango / Caja de 6</p>
+                  <p className="py-1">Tropical Variado 12-Pack</p>
+                  <p className="py-1">Mango 6-Pack</p>
+                  <p className="py-1">Mango 4-Pack</p>
                 </div>
                 <Link to='/BuyNow' className="p-0">
                   <MDBBtn color="yellow" size="bg" className="waves-light">Comprar</MDBBtn>
@@ -97,8 +98,9 @@ const Sabores = () => {
                 </p>
                 <p className="h5 font-weight-bold">Disponible en:</p>
                 <div className="py-3">
-                  <p className="py-1">Pack de Variedad / Caja de 12</p>
-                  <p className="py-1">Pack Mandarina / Caja de 6</p>
+                  <p className="py-1">Tropical Variado 12-Pack</p>
+                  <p className="py-1">Mandarina 6-Pack</p>
+                  <p className="py-1">Mandarina 4-Pack</p>
                 </div>
                 <Link to='/BuyNow' className="p-0">
                   <MDBBtn color="orange" size="bg" className="waves-light">Comprar</MDBBtn>
@@ -135,11 +137,50 @@ const Sabores = () => {
                 </p>
                 <p className="h5 font-weight-bold">Disponible en:</p>
                 <div className="py-3">
-                  <p className="py-1">Pack de Variedad / Caja de 12</p>
-                  <p className="py-1">Pack Natural / Caja de 6</p>
+                  <p className="py-1">Natural 12-Pack</p>
+                  <p className="py-1">Natural 6-Pack</p>
+                  <p className="py-1">Natural 4-Pack</p>
                 </div>
                 <Link to='/BuyNow' className="p-0">
                   <MDBBtn color="cyan" size="bg" className="waves-light">Comprar</MDBBtn>
+                </Link>
+              </MDBCol>
+            </MDBRow>
+
+            <hr className="my-5" />
+            
+            <MDBRow className="flex-center">
+              <MDBCol lg="5" className="flex-center">
+                <MDBView className="mb-lg-0 mb-4 w-75" hover zoom>
+                  <img
+                    className="img-fluid"
+                    src="Assets/FresaKiwiWET.png"
+                    alt=""
+                  />
+                  <a href="#!">
+                    <MDBMask overlay="white-slight" />
+                  </a>
+                </MDBView>
+              </MDBCol>
+              <MDBCol lg="7">
+                <h2 className="h1-responsive font-weight-bold">
+                 <img src='Assets/SaintsTitleB.png' style={{width: '40%'}}/>
+              </h2>
+                <h1 className="pink-text font-weight-bold mb-3 p-0 h1-responsive">
+                  <MDBTypography tag="h1" variant="display-4">FRESA-KIWI</MDBTypography>
+                </h1>
+                <p className="h4 py-3 font-weight-light">
+                  La frescura en las fresas y el kiwi hacen al dúo perfecto para el Hard Seltzer,
+                  esta grandiosa combinación es única.
+                </p>
+                <p className="h5 font-weight-bold">Disponible en:</p>
+                <div className="py-3">
+                  <p className="py-1">Tropical Variado 12-Pack</p>
+                  <p className="py-1">Fresa-Kiwi 6-Pack</p>
+                  <p className="py-1">Fresa-Kiwi 4-Pack</p>
+                </div>
+                <Link to='/BuyNow' className="p-0">
+                  <MDBBtn color="pink" size="bg" className="waves-light">Comprar</MDBBtn>
                 </Link>
               </MDBCol>
             </MDBRow>

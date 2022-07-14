@@ -166,7 +166,7 @@ function BuyNow(){
           <div collection className="">
             <a href="https://www.google.com/maps/search/city+market/" target="__blank" className="view zoom">
               <img
-                src="Assets/CityMarket.png"
+                src="Assets/City_Market.png"
                 className="img-fluid"
                 alt=""
               />
